@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://jdan.github.io/isomer/ -->
+<html data-ember-extension="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta property="og:image" content="https://i.cloudup.com/6XcAKnZq1w-3000x3000.png">
+  <meta property="og:title" content="Isomer – an isometric graphics library for HTML5 canvas">
+  <meta property="og:site_name" content="Isomer">
+
+  <title>Isomer – an isometric graphics library for HTML5 canvas</title>
+
+  <link rel="stylesheet" href="http://jdan.github.io/isomer/css/style.css">
+  <link href="./isomer-hoempage_files/css" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+<style type="text/css"></style><link rel="stylesheet" type="text/css" href="./isomer-hoempage_files/prettify.css"><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -90px !important;
+    width: 180px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body data-ember-extension="1" data-twttr-rendered="true">
+  <section class="row bg-yellow">
+    <div class="content brand">
+      <h1>Isomer</h1>
+      <p>an isometric graphics library for HTML5 canvas</p>
+      <canvas width="1000" height="800" id="logo"></canvas>
+    </div>
+  </section>
+
+  <section class="row bg-black">
+    <div class="content">
+      <div class="links">
+        <p>
+          Isomer is available for free under the MIT License, but you can also pay for it.
+        </p>
+
+        <a href="http://github.com/jdan/isomer" class="btn rounded">DOWNLOAD</a>
+        <a href="https://gumroad.com/l/Xzlg" class="btn rounded">BUY NOW</a>
+        <a href="http://jdan.github.io/isomer/gallery" class="btn rounded">GALLERY</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="row bg-blue">
+    <div class="content">
+      <h1>About</h1>
+
+      <p>
+        Isomer allows you to draw isometric graphics with ease. Let's draw
+        a simple cube.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">)));</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="basic-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+
+      <h2>The Grid</h2>
+
+      <p>
+        Here is the same cube overlayed with a 3D grid. This is how objects
+        look under an isometric projection.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="com">/**
+ * This is the 3D isometric grid that
+ * we will be drawing on.
+ *
+ * The blue grid is the xy-plane.
+ * The red line is the z-axis.
+ */</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="grid-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+
+      <h2>What's going on here?</h2>
+      <p>
+        After a couple clever renames, we add a <code>Shape.Prism</code> to our
+        scene. The first argument is the position of our shape. In this case,
+        we use <code>new Point(0, 0, 0)</code> to place the cube at the origin.
+        (<b>Note:</b> we can also use <code>Point.ORIGIN</code>)
+      </p>
+      <p>
+        We can also specify a width, length, and height of our prism, but
+        these all default to 1.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">));</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="basic-example-2" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+
+      <div class="links social-links">
+        <p>
+          </p><h2>Stay in the know</h2>
+        <p></p>
+        <ul class="social">
+          <li>
+            <iframe src="./isomer-hoempage_files/github-btn(1).html" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+          </li>
+          <li>
+            <iframe src="./isomer-hoempage_files/github-btn.html" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+          </li>
+
+          <li>
+            <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="./isomer-hoempage_files/tweet_button.1406859257.html" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="width: 109px; height: 20px;"></iframe>
+  <script async="" src="./isomer-hoempage_files/analytics.js"></script><script id="twitter-wjs" src="./isomer-hoempage_files/widgets.js"></script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </li>
+
+          <li>
+            <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" src="./isomer-hoempage_files/follow_button.1406859257.html" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 195px; height: 20px;"></iframe>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="row bg-black">
+    <div class="content">
+      <h1><em>Hey! Listen!</em></h1>
+      <p>
+        Isomer contains a number of smaller classes, including Shape, Point,
+        and Color. Instead of writing out "Isomer.Point" many times, I will
+        often use the pattern "var Point = Isomer.Point" (for example)
+      </p>
+      <p>
+        This is just for convenience.
+      </p>
+    </div>
+  </section>
+
+  <section class="row bg-red">
+    <div class="content">
+      <h1>Getting Started</h1>
+
+      <p>
+        To start using Isomer, you first need to include a small (7kb minified)
+        script wherever you see fit:
+      </p>
+
+      <div class="code full rounded">
+        <pre><code class="prettyprint lang-html prettyprinted"><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"/path/to/isomer.min.js"</span><span class="tag">&gt;&lt;/script&gt;</span></code></pre>
+      </div>
+
+      <p>
+        After which you'll need to place a canvas in your document that we
+        can later refer to. <b>Be sure to give it a width and height!</b>
+      </p>
+
+      <div class="code full rounded">
+        <pre><code class="prettyprint lang-html prettyprinted"><span class="tag">&lt;canvas</span><span class="pln"> </span><span class="atn">width</span><span class="pun">=</span><span class="atv">"800"</span><span class="pln"> </span><span class="atn">height</span><span class="pun">=</span><span class="atv">"600"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"art"</span><span class="tag">&gt;&lt;/canvas&gt;</span></code></pre>
+      </div>
+
+      <p>
+        <b>Note:</b> To improve the look of your canvas on retina displays, declare
+        the width and height of your canvas element as <i>double</i> how you
+        want it to appear. Then style your canvas with CSS to include the
+        original dimensions.
+      </p><p>
+
+      </p><div class="code full rounded">
+        <pre><code class="prettyprint lang-css prettyprinted"><span class="com">#art {</span><span class="pln">
+  width</span><span class="pun">:</span><span class="pln"> </span><span class="lit">400px</span><span class="pun">;</span><span class="pln">
+  height</span><span class="pun">:</span><span class="pln"> </span><span class="lit">300px</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+      </div>
+
+      <p>
+        At this point we can finally instantiate an Isomer object. Pass it
+        a reference to your canvas like so:
+      </p>
+
+      <div class="code full rounded">
+        <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> iso </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">(</span><span class="pln">document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"art"</span><span class="pun">));</span></code></pre>
+      </div>
+
+      <p>
+        And you're ready to start drawing!
+      </p>
+    </div>
+  </section>
+
+  <section class="row bg-green">
+    <div class="content">
+      <h1>Basic Shapes</h1>
+      <p>
+        Isomer is divided into 3 basic components: <b>points, paths, and
+        shapes</b>. A path consists of many points, and a shape consists of
+        many paths. To get up and running, we can play with some of the
+        built-ins.
+      </p>
+
+      <p>
+        These shapes take an origin point, followed by 3 measurements along
+        the x, y, and z axes respectively. These measurements default to 1.
+      </p>
+
+      <h2>Prism</h2>
+      <p>
+        Prisms have six rectangular faces, a width, length, and height.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+
+</span><span class="com">/* add() also accepts arrays */</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">([</span><span class="pln">
+  </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">,</span><span class="pln"> </span><span class="lit">4</span><span class="pun">,</span><span class="pln"> </span><span class="lit">4</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">),</span><span class="pln">
+  </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Point</span><span class="pun">(-</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">),</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln">
+  </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="pun">-</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">),</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">)</span><span class="pln">
+</span><span class="pun">]);</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="prism-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+
+      <h2>Pyramid</h2>
+      <p>
+        Pyramids have a rectangular base and four triangles extending to the
+        top.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">([</span><span class="pln">
+  </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln">
+  </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Pyramid</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">)),</span><span class="pln">
+  </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Pyramid</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">)),</span><span class="pln">
+  </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Pyramid</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">)),</span><span class="pln">
+  </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Pyramid</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">))</span><span class="pln">
+</span><span class="pun">]);</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="pyramid-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+    </div>
+  </section>
+
+  <section class="row bg-yellow">
+    <div class="content">
+      <h1>Colors</h1>
+
+      <p>
+        Isomer makes it easy to add colors to your shapes: simply specify a
+        color as the second argument to <code>add()</code>. Colors are built
+        using three arguments: a red, green, and blue component respectively –
+        the RGB representation of the color.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Color</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Color</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> red </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Color</span><span class="pun">(</span><span class="lit">160</span><span class="pun">,</span><span class="pln"> </span><span class="lit">60</span><span class="pun">,</span><span class="pln"> </span><span class="lit">50</span><span class="pun">);</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> blue </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Color</span><span class="pun">(</span><span class="lit">50</span><span class="pun">,</span><span class="pln"> </span><span class="lit">60</span><span class="pun">,</span><span class="pln"> </span><span class="lit">160</span><span class="pun">);</span><span class="pln">
+
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">));</span><span class="pln">
+
+</span><span class="com">/* You can leave out the `new` keyword
+   for most Isomer classes */</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Pyramid</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">)),</span><span class="pln"> red</span><span class="pun">);</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">)),</span><span class="pln"> blue</span><span class="pun">);</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="color-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+    </div>
+  </section>
+
+  <section class="row bg-blue">
+    <div class="content">
+      <h1>Paths</h1>
+
+      <p>
+        Paths are two-dimensional and are commonly used as the faces for shapes.
+        You can draw and color paths just like you would shapes.
+      </p>
+
+      <p>
+        Creating a path involves specifying a list of points. The path will
+        connect the last point to the starting point.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Path</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Path</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Color</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Color</span><span class="pun">;</span><span class="pln">
+
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">));</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Path</span><span class="pun">([</span><span class="pln">
+  </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln">
+  </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln">
+  </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln">
+  </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">)</span><span class="pln">
+</span><span class="pun">]),</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Color</span><span class="pun">(</span><span class="lit">50</span><span class="pun">,</span><span class="pln"> </span><span class="lit">160</span><span class="pun">,</span><span class="pln"> </span><span class="lit">60</span><span class="pun">));</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="path-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+
+      <h2>Shapes from Paths</h2>
+
+      <p>
+        The method <code>Shape.extrude</code> accepts a path and a height
+        (default 1), and allows you to create a 3D model by popping out a 2D
+        path along the z-axis.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Path</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Path</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Color</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Color</span><span class="pun">;</span><span class="pln">
+
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">));</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="typ">Shape</span><span class="pun">.</span><span class="pln">extrude</span><span class="pun">(</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Path</span><span class="pun">([</span><span class="pln">
+  </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln">
+  </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln">
+  </span><span class="typ">Point</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">)</span><span class="pln">
+</span><span class="pun">]),</span><span class="pln"> </span><span class="lit">0.3</span><span class="pun">),</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Color</span><span class="pun">(</span><span class="lit">50</span><span class="pun">,</span><span class="pln"> </span><span class="lit">160</span><span class="pun">,</span><span class="pln"> </span><span class="lit">60</span><span class="pun">));</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="extrude-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="row bg-green">
+    <div class="content">
+      <h1>Translate, Scale, Rotate</h1>
+
+      <p>
+        All of the Isomer base classes (Point, Path, and Shape) support
+        the following methods. They each return a <b>new</b> object from the
+        one they were originally called on.
+      </p>
+
+      <h2>Translate</h2>
+
+      <p>
+        Translate accepts a distance in the x, y, and z directions. Translating
+        does not modify the original shape.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+
+</span><span class="kwd">var</span><span class="pln"> blue </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Color</span><span class="pun">(</span><span class="lit">50</span><span class="pun">,</span><span class="pln"> </span><span class="lit">60</span><span class="pun">,</span><span class="pln"> </span><span class="lit">160</span><span class="pun">);</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> red </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Color</span><span class="pun">(</span><span class="lit">160</span><span class="pun">,</span><span class="pln"> </span><span class="lit">50</span><span class="pun">,</span><span class="pln"> </span><span class="lit">60</span><span class="pun">);</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> cube </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">);</span><span class="pln">
+
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="pln">cube</span><span class="pun">);</span><span class="pln">
+</span><span class="com">/* These methods do not modify the
+   original shape/path/point */</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="pln">cube</span><span class="pun">.</span><span class="pln">translate</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1.1</span><span class="pun">),</span><span class="pln"> blue</span><span class="pun">);</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="pln">cube</span><span class="pun">.</span><span class="pln">translate</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2.2</span><span class="pun">),</span><span class="pln"> red</span><span class="pun">);</span><span class="pln">
+
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="translate-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+
+      <h2>Scale</h2>
+
+      <p>
+        Scale accepts a reference point, and 3 scaling factors in the x, y, and
+        z directions respectively.
+
+        </p><ul>
+          <li>If only one scaling factor is specified, the object scales in
+            all three directions by this amount.</li>
+          <li>If only two scaling factors are specified, the scaling factor
+            for the z-direction is assumed to be 1.</li>
+        </ul>
+      <p></p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+
+</span><span class="kwd">var</span><span class="pln"> blue </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Color</span><span class="pun">(</span><span class="lit">50</span><span class="pun">,</span><span class="pln"> </span><span class="lit">60</span><span class="pun">,</span><span class="pln"> </span><span class="lit">160</span><span class="pun">);</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> cube </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">);</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="pln">cube</span><span class="pun">.</span><span class="pln">scale</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0.5</span><span class="pun">));</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="pln">cube
+  </span><span class="com">/* Grow outward from the origin */</span><span class="pln">
+  </span><span class="pun">.</span><span class="pln">scale</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0.5</span><span class="pun">)</span><span class="pln">
+  </span><span class="com">/* We can chain these transformations */</span><span class="pln">
+  </span><span class="pun">.</span><span class="pln">translate</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0.6</span><span class="pun">)</span><span class="pln">
+</span><span class="pun">,</span><span class="pln"> blue</span><span class="pun">);</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="scale-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+
+      <h2>RotateZ</h2>
+
+      <p>
+        RotateZ accepts an reference point, and an angle in radians on the
+        xy-plane (where an angle of 0 runs along the position x-axis).
+      </p>
+
+      <p>
+        <b>Note:</b> To rotate an object about its center, you will need to
+        specify the midpoint of the object as the reference point.
+      </p>
+
+      <div class="example">
+        <div class="code rounded">
+          <pre><code class="prettyprint lang-js prettyprinted"><span class="kwd">var</span><span class="pln"> </span><span class="typ">Shape</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Shape</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> </span><span class="typ">Point</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Point</span><span class="pun">;</span><span class="pln">
+
+</span><span class="kwd">var</span><span class="pln"> blue </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Isomer</span><span class="pun">.</span><span class="typ">Color</span><span class="pun">(</span><span class="lit">50</span><span class="pun">,</span><span class="pln"> </span><span class="lit">60</span><span class="pun">,</span><span class="pln"> </span><span class="lit">160</span><span class="pun">);</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> cube </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Shape</span><span class="pun">.</span><span class="typ">Prism</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">.</span><span class="pln">ORIGIN</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">);</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="pln">cube</span><span class="pun">);</span><span class="pln">
+iso</span><span class="pun">.</span><span class="pln">add</span><span class="pun">(</span><span class="pln">cube
+  </span><span class="com">/* (1.5, 1.5) is the center of the prism */</span><span class="pln">
+  </span><span class="pun">.</span><span class="pln">rotateZ</span><span class="pun">(</span><span class="typ">Point</span><span class="pun">(</span><span class="lit">1.5</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1.5</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">),</span><span class="pln"> </span><span class="typ">Math</span><span class="pun">.</span><span class="pln">PI </span><span class="pun">/</span><span class="pln"> </span><span class="lit">12</span><span class="pun">)</span><span class="pln">
+  </span><span class="pun">.</span><span class="pln">translate</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1.1</span><span class="pun">)</span><span class="pln">
+</span><span class="pun">,</span><span class="pln"> blue</span><span class="pun">);</span><span class="pln">
+          </span></code></pre>
+        </div>
+        <canvas width="680" height="500" id="rotatez-example" class="rounded"></canvas>
+        <br class="clear">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="row bg-black">
+    <div class="content">
+      <div class="credit">
+        <p>
+          <a href="http://github.com/jdan/isomer">On GitHub</a>. Made with &lt;3 by <a href="http://github.com/jdan">@jdan</a>. <a href="https://github.com/jdan/isomer/blob/master/LICENSE">MIT Licensed</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50386443-1', 'jdan.github.io');
+    ga('send', 'pageview');
+
+  </script>
+
+  
+  <script src="./isomer-hoempage_files/isomer.min.js"></script>
+  <script src="./isomer-hoempage_files/script.js"></script>
+
+
+<script type="text/javascript" src="chrome-extension://bmdblncegkenkacieihfhpjfppoconhi/in-page-script.js"></script></body></html>

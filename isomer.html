@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>isomer example</title>
+</head>
+<body>
+  <canvas width="300" height="300" id="cubes"></canvas>
+
+  <script src="lib/js/isomer.min.js"></script>
+  <script>
+    var iso = new Isomer(document.getElementById("cubes"));
+    var blue = new Isomer.Color(100, 199, 204);
+
+    iso.add(Isomer.Shape.Prism(new Isomer.Point(0, 0, 0)), blue);
+    iso.add(Isomer.Shape.Prism(new Isomer.Point(1, 2, 0)), blue);
+    iso.add(Isomer.Shape.Prism(new Isomer.Point(1, 0, 1)), blue);
+  </script>
+</body>
+</html>

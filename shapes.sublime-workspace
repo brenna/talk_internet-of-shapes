@@ -1,0 +1,2235 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"them",
+				"theme"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"trf",
+				"trf-sc	transform: scale(${1:x}, ${2:y});"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"tr",
+				"triangleElem"
+			],
+			[
+				"triangle",
+				"triangle-ctrl"
+			],
+			[
+				"brs",
+				"bdrs	border-radius"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"gl",
+				"glyphicon-check"
+			],
+			[
+				"gli",
+				"glyphicon-unchecked"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"po",
+				"pos-r	position: relative;"
+			],
+			[
+				"fl",
+				"fl-l	float: left;"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"list-styl",
+				"list-style-position"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"get_templ",
+				"get_template_directory_uri"
+			],
+			[
+				"border-bottom-",
+				"border-bottom-width"
+			],
+			[
+				"d",
+				"d-ib	display: inline-block;"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"LIGHT",
+				"LIGHT_GREEN"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tt",
+				"tt-u	text-transform: uppercase;"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"hack",
+				"hackeryou-brand"
+			],
+			[
+				"ilin",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"backgrond",
+				"background"
+			],
+			[
+				"featured",
+				"featured-sponsor-logo"
+			],
+			[
+				"featured-spons",
+				"featured-sponsor-about"
+			],
+			[
+				"tar",
+				"target=  (attribute)"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"ind",
+				"include"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"boder-top",
+				"border-top-left-radius"
+			],
+			[
+				"b",
+				"background-size"
+			],
+			[
+				"line",
+				"linear-gradient"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"base",
+				"baseFontSizeAbs"
+			],
+			[
+				"padding",
+				"padding	padding: T R B L"
+			],
+			[
+				"fontSize",
+				"baseFontSizeAbs"
+			],
+			[
+				"title",
+				"title_permalink"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/slides.js",
+			"settings":
+			{
+				"buffer_size": 5130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 63089,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme/source/brenzone.scss",
+			"settings":
+			{
+				"buffer_size": 9950,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme/brenzone.css",
+			"settings":
+			{
+				"buffer_size": 14522,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme/template/theme.scss",
+			"settings":
+			{
+				"buffer_size": 3780,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme/source/default.scss",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 3546,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"clear",
+				"Snippet: clearfix"
+			],
+			[
+				"norma",
+				"Snippet: normalize"
+			],
+			[
+				"bord",
+				"Snippet: border-box"
+			],
+			[
+				"snippet",
+				"Snippet: border-box"
+			],
+			[
+				"prevei",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snip",
+				"Snippet: normalize"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bower: Discover packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax li",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"syn",
+				"Set Syntax: YAML"
+			],
+			[
+				"pre",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"border",
+				"Snippet: border-box"
+			],
+			[
+				"snip border",
+				"Snippet: border-box"
+			],
+			[
+				"snip clear",
+				"Snippet: clearfix"
+			],
+			[
+				"snippet: bor",
+				"Snippet: border-box"
+			],
+			[
+				"snip norm",
+				"Snippet: normalize"
+			],
+			[
+				"previe",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"inta",
+				"Package Control: Install Package"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax: liqu",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"syntax",
+				"Set Syntax: YAML"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntax:m",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"liquid",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"text",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"liq",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"gihub",
+				"Markdown Preview: Github Flavored Markdown: Export HTML in Sublime Text"
+			],
+			[
+				"prev",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"preve",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"syntax: j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"linter",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"link",
+				"Preferences: SublimeLinter Key Bindings – User"
+			],
+			[
+				"github",
+				"Markdown Preview: Github Flavored Markdown: Export HTML in Sublime Text"
+			],
+			[
+				"prve",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: Github Flavored Markdown: Copy to Clipboard"
+			],
+			[
+				"gi",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"git",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"makr",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"preie",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"m",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown gi",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"marko",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"preview ",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sftp",
+				"SFTP: Upload File"
+			],
+			[
+				"monito",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"build",
+				"Set Syntax: NAnt Build File"
+			],
+			[
+				"paka",
+				"Package Control: Install Package"
+			],
+			[
+				"stfp",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"sfto",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"sftp:mo",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"sftp:m",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"sf",
+				"SFTP: Edit Server…"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 583.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/print",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/template"
+	],
+	"file_history":
+	[
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/brenzone.css",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/default.css",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/template/settings.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/template/mixins.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/solarized.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/sky.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/simple.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/serif.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/night.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/moon.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/default.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/blood.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/beige.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/solarized.css",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/sky.css",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/simple.css",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/serif.css",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/svg-css.json",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo/node_modules/sax/test/self-closing-child-strict.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/.bin/supports-color",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/img/spiral.svg",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-connect/CHANGELOG",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/img/canvas-shape.svg",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-cssmin/tasks/cssmin.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/index.html",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt/node_modules/js-yaml/lib/js-yaml.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt/node_modules/js-yaml/bin/js-yaml.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/socket.io/node_modules/socket.io-client/lib/json.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/socket.io/lib/transports/jsonp-polling.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt/node_modules/coffee-script/extras/jsl.conf",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-jshint/test/jshint_test.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-jshint/tasks/lib/jshint.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-jshint/node_modules/jshint/bin/jshint",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-jshint/docs/jshint-overview.md",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-jshint/docs/jshint-options.md",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-jshint/docs/jshint-examples.md",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt/node_modules/.bin/js-yaml",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-jshint/tasks/jshint.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-jshint/node_modules/.bin/jshint",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-contrib-watch/node_modules/gaze/test/rename_test.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt/node_modules/glob/test/bash-results.json",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/beige.css",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/night.css",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/css/theme/source/brenzone.scss",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/Gruntfile.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/package.json",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/isomer.html",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/js/slides.js",
+		"/Users/Brenna/Downloads/isomer-master/README.md",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/SRC/gradient.html",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/SRC/icon-triangle.svg",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/img/heart.svg",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/mustache/test/_files/partial_array.js",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/SRC/trek.svg",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/SRC/round-diamond-svg/icon_2265.svg",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/img/spiral-path.svg",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/img/skew-page.mov",
+		"/Users/Brenna/Desktop/gradient.html",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/SRC/icon-stat.svg",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/js/reveal.js",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/_site/1-HTML-CSS/extras/random-project-assigner/projectAssigner.html",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/index-sample.html",
+		"/Users/Brenna/Documents/SITES/brennaobrien.com/portfolio.sublime-workspace",
+		"/Users/Brenna/Documents/SITES/brennaobrien.com/portfolio.sublime-project",
+		"/Users/Brenna/Documents/SITES/brennaobrien.com/index.html",
+		"/Users/Brenna/Google Drive/SITES/_talks/internetOfShapes/node_modules/grunt-zip/node_modules/grunt-retro/bin/grunt-retro",
+		"/Users/Brenna/Downloads/week5/jquery-exercises/random-colours-ANSWER.html",
+		"/Users/Brenna/Downloads/week5/to-do-app/to-do-app.html",
+		"/Users/Brenna/Desktop/student-suggested-lessons.md",
+		"/Users/Brenna/Downloads/week5/intro-to-jquery/try-jquery.html",
+		"/Users/Brenna/Downloads/week5/intro-to-jquery/jquery-events.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/10-debugging.md",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/11-jquery_best_practices.md",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/brenna.md",
+		"/Users/Brenna/Downloads/misc/Mr. Droid backups/DROID SD BACKUP - 2012.04/Android/data/com.google.android.apps.currents/files/blobs.103.1035710480/CAAiEBD1pmxVoUZueIPjxeYeIXAqBggKMJSaGQ/pr/CAIiEB8bCYLIEcO78g1-bEIxKtAqMggEIhAguxvCgEgpyuqtTr_zXrNXKhwIACIQEPWmbFWhRm54g-PF5h4hcCoGCAowlJoZ",
+		"/Users/Brenna/Downloads/misc/Mr. Droid backups/DROID SD BACKUP - 2012.04/backups/apps/eSpeak TTS-1.apk",
+		"/Users/Brenna/Downloads/ New Musics/Etta James/Her Best/Etta James - Her Best - 12 - Pushover.mp3",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/_site/3-JavaScript/exercises/debugging-answer.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/_site/3-JavaScript/exercises/debugging.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/exercises/debugging-answer.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/exercises/debugging.html",
+		"/Users/Brenna/Downloads/debugging-answer.html",
+		"/Users/Brenna/Downloads/debugging.html",
+		"/Users/Brenna/Downloads/misc/Mr. Droid backups/DROID SD BACKUP - 2012.04/com.coupons.GroceryIQ/cache/d5d13326-e846-390b-bb81-06c3f4685e35",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/_layouts/default.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/ZaidPortfolioRestaurant/main.css",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/ZaidPortfolioRestaurant/contact.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/ZaidPortfolioRestaurant/index.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/ZaidPortfolioRestaurant/about.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/ZaidPortfolioRestaurant/appetizers.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/exercises/functions.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/exercises/functions-ANSWER.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/exercises/variables-operators-functions.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/exercises/variables-operators.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/exercises/variables-operators-ANSWER.html",
+		"/Users/Brenna/Downloads/misc/===============================================================================================================================================================.:π::::::::÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷/Video.avi",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/drew.md",
+		"/Users/Brenna/Desktop/robots.txt",
+		"/Users/Brenna/Downloads/brenna.md",
+		"/Users/Brenna/Downloads/drew.md",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/ZaidPortfolioRestaurant/wine.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/ZaidPortfolioRestaurant/steak.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/ZaidPortfolioRestaurant/dessert.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/week-2-project-b-winter/contact.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/week-2-project-b-winter/about.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/week-2-project-b-winter/index.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/week-2-project-b-winter/style.css",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/SimonWeekTwoProject/index.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/SimonWeekTwoProject/ensemble.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/SimonWeekTwoProject/productions.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/SimonWeekTwoProject/css/style.css",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/SimonWeekTwoProject/contact.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/3-JavaScript/extras/album-media-player/albums-ANSWER.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/1-HTML-CSS/examples/hackeryou.psd",
+		"/Users/Brenna/Downloads/ New Musics/Garage Rock Revival/The Hives - Tyrannosaurus Hives/The Hives - Abra Cadaver.mp3",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/1-HTML-CSS/exercises/html-challenge-ANSWER.html",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/1-HTML-CSS/25-css_animations_keyframes.md",
+		"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time/_includes/header.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/week2ProjectPeter/style.css",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/week2ProjectPeter/about.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/week2ProjectPeter/contact.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/week2ProjectPeter/index.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/PamelaTung-Week2-Project/css/main2.css",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/PamelaTung-Week2-Project/about.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/PamelaTung-Week2-Project/contact.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/PamelaTung-Week2-Project/portfolio.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/PamelaTung-Week2-Project/index.html",
+		"/Users/Brenna/Downloads/summer2014bootcamp-week2/PamelaTung-Week2-Project/travel.html"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_part_time",
+			"/Users/Brenna/Google Drive/SITES/_hackeryou/web_dev_full_time",
+			"/Users/Brenna/Desktop/SITES/_hackeryou/web_dev_full_time/",
+			"/Users/Brenna/Desktop/SITES/_hackeryou/web_dev_full_time/1-HTML-CSS/",
+			"/Users/Brenna/Desktop/SITES/_hackeryou/web_dev_full_time/1-HTML-CSS/week1/Day 1",
+			"/Users/Brenna/Desktop/SITES/LLC/LLC-JavaScript",
+			"/Users/Brenna/Desktop/SITES/WomenAndTech/wp/wp-content/themes/roots",
+			"/Users/Brenna/Desktop/SITES/WomenAndTech/wp/wp-content",
+			"/Users/Brenna/Desktop/SITES/WomenAndTech/wp/wp-content/themes/roots",
+			"/Users/Brenna/Desktop/SITES/W__T/root/WomenAndTech/wp/wp-content/themes/roots",
+			"/Users/Brenna/Desktop/SITES/W__T/root/WomenAndTech",
+			"/Users/Brenna/Desktop/SITES/W__T/root/WomenAndTech/wp/wp-content/themes/roots",
+			"/Users/Brenna/Desktop/SITES/_FILAMENT/torstar/root/public_html/wp-content/themes/torstar",
+			"/Users/Brenna/Desktop/FILAMENT/eHealth/web/public_html/_/less/bootstrap"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hyphen",
+			"href",
+			"svg.js",
+			"href",
+			"svg.js",
+			"href",
+			"svg.js",
+			"href",
+			"hover",
+			"uk",
+			".mov",
+			"transform",
+			"fragment",
+			"data-fra",
+			"third",
+			"Context",
+			"context",
+			"#64C7CC",
+			"(#",
+			"p",
+			">",
+			"<",
+			"linear",
+			"inc.jp",
+			"letters",
+			"svg",
+			"paperjs-shapes",
+			"png",
+			"png ",
+			" png",
+			"transform",
+			"gradient",
+			"moz",
+			"autopref",
+			"@",
+			"Shape",
+			"bright",
+			"video",
+			"gradient",
+			"linear",
+			"compress",
+			"scaleX",
+			"narrow",
+			"scaleX",
+			"$blue",
+			"$blu",
+			"add",
+			"fragmetn",
+			"scaleY",
+			"scaleX",
+			"addClass",
+			"rotate",
+			"http://codepen.io/calvindavis/pen/IKDfr",
+			"http://brightmedia.pl/?lang=en",
+			"http://dataveyes.com/#!/en",
+			"autoplay",
+			"en",
+			"http://okaal.matrix.jp/createjs/path/index6_pc_time.html",
+			">\n",
+			";\n",
+			"h1",
+			">",
+			"<",
+			"quarter",
+			"<",
+			"svg",
+			"url(#l",
+			"#linearG",
+			"#linear",
+			"stroke:#000000",
+			"stroke",
+			"000000",
+			"</div>",
+			"rotate",
+			"http://tympanus.net/Development/HoverEffectIdeas/",
+			"with",
+			"* ",
+			"3d",
+			"Canvas",
+			"64c7cc",
+			">",
+			"<",
+			"png",
+			"');",
+			"myCanvas",
+			"b_canvas",
+			">",
+			"<",
+			">",
+			"<",
+			"svg",
+			"stroke=\"#fff\" stroke-width=\"5px\"",
+			"dee",
+			"shapes of css",
+			"shapes",
+			"scale",
+			"scaleX",
+			"scale",
+			"clear",
+			"autoplay",
+			"400",
+			"css triangle",
+			" class=\"left\"",
+			"top-overlay",
+			"triangle",
+			"arrow",
+			"webperf",
+			"like this",
+			"svg",
+			"img",
+			"diamonds",
+			"transforms",
+			"geometric design",
+			"&gt;",
+			"&lt;",
+			"heart",
+			"ref",
+			"fill=\"#64C7CC\"",
+			"50",
+			"width",
+			"viewBox",
+			"basic",
+			"50px",
+			"quarter",
+			"<p><code>",
+			"diamond-demo",
+			"<code",
+			"fragment"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"heather"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/slides.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountSyntax": "javascript",
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 27.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42335,
+								42339
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "html",
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 24008.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/theme/source/brenzone.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1150,
+								1150
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "scss",
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 623.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/theme/brenzone.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 14522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1110,
+								1117
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "css",
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 731.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/theme/template/theme.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								10
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "scss",
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 657.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/theme/source/default.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								17
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "scss",
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1502,
+								1502
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 483.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 205.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 114.0
+	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"project": "shapes.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"def",
+				"css/theme/source/default.scss"
+			],
+			[
+				"scss",
+				"css/theme/template/theme.scss"
+			],
+			[
+				"js",
+				"js/slides.js"
+			],
+			[
+				"bren",
+				"css/theme/brenzone.css"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"slide",
+				"js/slides.js"
+			],
+			[
+				"spir",
+				"img/spiral.svg"
+			],
+			[
+				"heart",
+				"img/heart.svg"
+			],
+			[
+				"",
+				"index-sample.html"
+			],
+			[
+				"debug",
+				"web_dev_full_time/3-JavaScript/10-debugging.md"
+			],
+			[
+				"variab",
+				"web_dev_full_time/3-JavaScript/exercises/variables-operators.html"
+			],
+			[
+				"variable",
+				"web_dev_full_time/3-JavaScript/exercises/variables-operators-functions.html"
+			],
+			[
+				"snipp",
+				"web_dev_full_time/1-HTML-CSS/snippets/border-box.sublime-snippet"
+			],
+			[
+				"snippe",
+				"web_dev_full_time/1-HTML-CSS/snippets/normalize.sublime-snippet"
+			],
+			[
+				"cross",
+				"web_dev_full_time/1-HTML-CSS/23-cross-browser-testing.md"
+			],
+			[
+				"top",
+				"web_dev_full_time/_data/topic-list.yml"
+			],
+			[
+				"topi",
+				"web_dev_full_time/_data/topic-list.yml"
+			],
+			[
+				"resour",
+				"web_dev_full_time/_layouts/resources.html"
+			],
+			[
+				"yml",
+				"web_dev_full_time/_data/topic-list.yml"
+			],
+			[
+				"exer",
+				"web_dev_full_time/_layouts/exercises.html"
+			],
+			[
+				"git",
+				"web_dev_full_time/1-HTML-CSS/week3/day4/4-git-workflow.md"
+			],
+			[
+				"app",
+				"web_dev_full_time/3-JavaScript/week6/day3/art-app-answer/app.js"
+			],
+			[
+				"theme-hackeryou",
+				"web_dev_full_time/4-Wordpress/assets/theme-hackeryou/single.php"
+			],
+			[
+				"tic",
+				"web_dev_full_time/3-JavaScript/week6/day1/exercises/tic-tac-toe-answer.html"
+			],
+			[
+				"tpoic",
+				"web_dev_full_time/_data/topic-list.yml"
+			],
+			[
+				"4-ap",
+				"web_dev_full_time/3-JavaScript/week6/day3/4-api_exercise.md"
+			],
+			[
+				"app.js",
+				"web_dev_full_time/3-JavaScript/week6/day4/movieapp-phase2-answer/app.js"
+			],
+			[
+				"museum",
+				"web_dev_full_time/3-JavaScript/week6/day3/museum-app/app.js"
+			],
+			[
+				"document",
+				"web_dev_full_time/3-JavaScript/week6/day3/1-reading_documentation.md"
+			],
+			[
+				"array.",
+				"web_dev_full_time/3-JavaScript/week5/day2/exercises/arrays.html"
+			],
+			[
+				"arr",
+				"web_dev_full_time/3-JavaScript/week5/day2/exercises/arrays.html"
+			],
+			[
+				"debugg",
+				"web_dev_full_time/3-JavaScript/week5/day4/debugging_code.md"
+			],
+			[
+				"debuggi",
+				"web_dev_full_time/3-JavaScript/week5/day4/debugging_code.md"
+			],
+			[
+				"functions-as",
+				"web_dev_full_time/3-JavaScript/week5/day3/1b-functions_as_first-class_objects.md"
+			],
+			[
+				"first-class",
+				"web_dev_full_time/_site/3-JavaScript/week5/day3/1b-functions_as_first-class_objects.html"
+			],
+			[
+				"topics",
+				"web_dev_full_time/_data/topic-list.yml"
+			],
+			[
+				"albu",
+				"web_dev_full_time/3-JavaScript/extras/album-media-player/albums-ANSWER.html"
+			],
+			[
+				"psd",
+				"web_dev_full_time/2-Design/week4/day3/working_with_psds.md"
+			],
+			[
+				"curr",
+				"web_dev_full_time/_layouts/curriculum.html"
+			],
+			[
+				"githu",
+				"web_dev_full_time/assets/github.css"
+			],
+			[
+				"html",
+				"web_dev_full_time/1-HTML-CSS/week1/day1/1-html_part1.md"
+			],
+			[
+				"header",
+				"web_dev_full_time/_includes/header.html"
+			],
+			[
+				"read",
+				"web_dev_full_time/README.md"
+			],
+			[
+				"desi",
+				"web_dev_full_time/2-Design/week4/day1/2-web_design_best_practices.md"
+			],
+			[
+				"list",
+				"web_dev_full_time/1-HTML-CSS/week2/day2/exercises/list-style.html"
+			],
+			[
+				"prepro",
+				"web_dev_full_time/1-HTML-CSS/week3/day5/1-css_preprocessors.md"
+			],
+			[
+				"topic",
+				"web_dev_full_time/_data/topic-list.yml"
+			],
+			[
+				"transi",
+				"web_dev_full_time/1-HTML-CSS/week3/day2/1-css_transitions_transforms.md"
+			],
+			[
+				"page",
+				"web_dev_full_time/_site/1-HTML-CSS/week1/day3/3-page-structure.html"
+			],
+			[
+				"hmlt",
+				"web_dev_full_time/1-HTML-CSS/week1/day2/exercises/css-multi-class-selector.html"
+			],
+			[
+				"adva",
+				"web_dev_full_time/1-HTML-CSS/week2/day4/1-advanced_selectors.md"
+			],
+			[
+				"embe",
+				"web_dev_full_time/1-HTML-CSS/week2/day3/5-embeddable_media.md"
+			],
+			[
+				"color",
+				"web_dev_full_time/1-HTML-CSS/week2/day3/2-css_color_and_background.md"
+			],
+			[
+				"typog",
+				"web_dev_full_time/1-HTML-CSS/week2/day3/3-css_typography.md"
+			],
+			[
+				"typ",
+				"web_dev_full_time/1-HTML-CSS/week2/day3/exercises/typography.html"
+			],
+			[
+				"produc",
+				"web_dev_full_time/1-HTML-CSS/week2/day1/4-productivity.md"
+			],
+			[
+				"ftp",
+				"web_dev_full_time/1-HTML-CSS/week1/day5/2-ftp_web_hosting.md"
+			],
+			[
+				"configrue",
+				"web_dev_full_time/1-HTML-CSS/week1/day4/2-configuring-sublime-text.md"
+			],
+			[
+				"sublime",
+				"web_dev_full_time/_site/1-HTML-CSS/week1/day4/2-configuring-sublime-text.html"
+			],
+			[
+				"notes",
+				"web_dev_full_time/_layouts/notes.html"
+			],
+			[
+				"link-",
+				"web_dev_full_time/1-HTML-CSS/week2/day1/exercises/link-within.html"
+			],
+			[
+				"dis",
+				"web_dev_full_time/1-HTML-CSS/week2/day1/1-display_and_positioning.md"
+			],
+			[
+				"html-chall",
+				"web_dev_full_time/1-HTML-CSS/week2/day1/exercises/html-challenge.html"
+			],
+			[
+				"dev",
+				"web_dev_full_time/1-HTML-CSS/week1/day4/exercises/devtools-testing.html"
+			],
+			[
+				"config",
+				"web_dev_full_time/_config.yml"
+			],
+			[
+				"4-css",
+				"web_dev_full_time/1-HTML-CSS/week1/day1/4-css.md"
+			],
+			[
+				"footer",
+				"web_dev_full_time/_includes/footer.html"
+			],
+			[
+				"css-",
+				"~/Desktop/css-fun.html"
+			],
+			[
+				"markup",
+				"web_dev_part_time/untouched-exercises/Day 1 & 2/markup-exercise-answers.html"
+			],
+			[
+				"hello",
+				"web_dev_part_time/untouched-exercises/Day 1 & 2/hello-world.html"
+			],
+			[
+				"weekly",
+				"web_dev_full_time/3-JavaScript/week5/Weekly Project/weekly_project5.md"
+			],
+			[
+				"best",
+				"web_dev_full_time/1-HTML-CSS/week1/day2/4-best_practices.md"
+			],
+			[
+				"hea",
+				"web_dev_full_time/_includes/header.html"
+			],
+			[
+				"ex",
+				"web_dev_full_time/_layouts/exercises.html"
+			],
+			[
+				"exe",
+				"web_dev_full_time/_layouts/exercises.html"
+			],
+			[
+				"head",
+				"web_dev_full_time/_includes/header.html"
+			],
+			[
+				"week",
+				"web_dev_full_time/3-JavaScript/week6/weekly_project6.md"
+			],
+			[
+				"rea",
+				"web_dev_full_time/README.md"
+			],
+			[
+				"refac",
+				"web_dev_full_time/2-Design/Week4/Day3/refactoring.md"
+			],
+			[
+				"1a-fu",
+				"web_dev_full_time/3-JavaScript/Week 5/Day 2/1a-functions.md"
+			],
+			[
+				"cu",
+				"web_dev_full_time/_layouts/curriculum.html"
+			],
+			[
+				"aja",
+				"web_dev_full_time/3-JavaScript/Week6/Day2/exercises/ajax-practice-answer.html"
+			],
+			[
+				"nots",
+				"web_dev_full_time/assets/notes.css"
+			],
+			[
+				"git-",
+				"web_dev_full_time/1-HTML-CSS/week3/Day 4/4-git-workflow.md"
+			],
+			[
+				"deful",
+				"web_dev_full_time/_layouts/default.html"
+			],
+			[
+				"prod",
+				"web_dev_full_time/1-HTML-CSS/week2/Day 1/4-productivity.md"
+			],
+			[
+				"chrome",
+				"web_dev_full_time/1-HTML-CSS/week1/Day 4/1-chrome_dev_tools.md"
+			],
+			[
+				"wire",
+				"web_dev_full_time/2-Design/Week4/Day2/wireframing_and_grids.md"
+			],
+			[
+				"ajax-",
+				"web_dev_full_time/_site/3-JavaScript/Week6/Day2/exercises/ajax-practice.html"
+			],
+			[
+				"animation",
+				"web_dev_full_time/1-HTML-CSS/week3/Day 2/2-css_animations_keyframes.md"
+			],
+			[
+				"gem",
+				"web_dev_full_time/Gemfile"
+			],
+			[
+				"gitignore",
+				"web_dev_full_time/.gitignore"
+			],
+			[
+				"org",
+				"web_dev_full_time/3-JavaScript/Week6/Day1/2-organizing-javascript.md"
+			],
+			[
+				"ticta",
+				"web_dev_full_time/3-JavaScript/Week 6/Day 1/exercises/ticTacToe.html"
+			],
+			[
+				"gith",
+				"web_dev_full_time/assets/github.css"
+			],
+			[
+				"note",
+				"web_dev_full_time/_layouts/notes.html"
+			],
+			[
+				"mis",
+				"web_dev_full_time/_layouts/misc.html"
+			],
+			[
+				"cur",
+				"web_dev_full_time/_layouts/curriculum.html"
+			],
+			[
+				"notse",
+				"web_dev_full_time/assets/notes.css"
+			],
+			[
+				"1-",
+				"web_dev_full_time/1-HTML-CSS/week1/Day 1/1-html_part1.md"
+			],
+			[
+				"confi",
+				"web_dev_full_time/_config.yml"
+			],
+			[
+				"gemfil",
+				"web_dev_full_time/Gemfile"
+			],
+			[
+				"alpah",
+				"web_dev_full_time/_data/alphabet.yml"
+			],
+			[
+				"index",
+				"web_dev_full_time/index.html"
+			],
+			[
+				"ind",
+				"web_dev_full_time/index.html"
+			],
+			[
+				"inde",
+				"web_dev_full_time/index.html"
+			],
+			[
+				"to-d",
+				"web_dev_full_time/3-JavaScript/Week 5/Day 3/to-do-app/to-do-app.html"
+			],
+			[
+				"jquery-event",
+				"web_dev_full_time/3-JavaScript/Week 5/Day 3/jquery-events.html"
+			],
+			[
+				"array",
+				"web_dev_full_time/3-JavaScript/Week 5/Day 2/exercises/arrays.html"
+			],
+			[
+				"4-bes",
+				"web_dev_full_time/1-HTML-CSS/week2/Day 3/4-html_css_best_practices.md"
+			],
+			[
+				"design",
+				"web_dev_full_time/2-Design/Week 4/Day 1/web_design_best_practices.md"
+			],
+			[
+				"ux",
+				"web_dev_full_time/2-Design/Week 4/Day 1/ux-design.md"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"wordpres",
+				"blog/_posts/2013-11-11-autopopulating-wordpress-taxonomies.md"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"lay",
+				"_assets/css/base/_layout.scss"
+			],
+			[
+				"icon",
+				"_assets/css/vendor/_icons.scss"
+			],
+			[
+				"nor",
+				"_assets/css/base/_normalize.scss"
+			],
+			[
+				"con",
+				"_config.yml"
+			],
+			[
+				"tomo",
+				"_assets/css/prettify-tomorrow-theme.css"
+			],
+			[
+				"au",
+				"blog/_posts/2013-11-11-autopopulating-wordpress-taxonomies.md"
+			],
+			[
+				"style",
+				"library/css/style.css"
+			],
+			[
+				"i",
+				"library/scss/vendor/_icomoon.scss"
+			],
+			[
+				"ico",
+				"library/scss/vendor/_icomoon.scss"
+			],
+			[
+				"type",
+				"library/scss/base/_type.scss"
+			],
+			[
+				"mix",
+				"library/scss/_mixins.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"shape",
+				"~/Google Drive/SITES/_writing/shapes-article.sublime-project"
+			],
+			[
+				"",
+				"~/Google Drive/SITES/_hackeryou/web_dev_full_time/hackeryou-full-time.sublime-project"
+			],
+			[
+				"fu",
+				"~/Google Drive/SITES/_hackeryou/web_dev_full_time/hackeryou-full-time.sublime-project"
+			],
+			[
+				"port",
+				"~/Documents/SITES/brennaobrien.com/portfolio.sublime-project"
+			],
+			[
+				"po",
+				"~/Google Drive/SITES/brennaobrien.com/portfolio.sublime-workspace"
+			],
+			[
+				"bren",
+				"~/Google Drive/SITES/brennaobrien.com/portfolio.sublime-workspace"
+			],
+			[
+				"b",
+				"~/Google Drive/SITES/brennaobrien.com/portfolio.sublime-project"
+			],
+			[
+				"hak",
+				"~/Google Drive/SITES/_hackeryou/hackeryoudotcom/hackeryoudotcom.sublime-project"
+			],
+			[
+				"le",
+				"~/Google Drive/SITES/_learninglabs/learningLabs.sublime-project"
+			],
+			[
+				"por",
+				"~/Google Drive/SITES/brennaobrien.com/portfolio.sublime-project"
+			],
+			[
+				"lear",
+				"~/Google Drive/SITES/_learninglabs/learningLabs.sublime-project"
+			],
+			[
+				"hacker",
+				"~/Google Drive/SITES/_hackeryou/hackeryoudotcom/hackeryoudotcom.sublime-project"
+			],
+			[
+				"lea",
+				"~/Google Drive/SITES/_learninglabs/learningLabs.sublime-project"
+			],
+			[
+				"hex",
+				"~/Google Drive/SITES/csshexagon/csshex.sublime-project"
+			],
+			[
+				"hacke",
+				"~/Google Drive/SITES/_hackeryou/hackeryoudotcom/hackeryoudotcom.sublime-project"
+			],
+			[
+				"brenn",
+				"~/Google Drive/SITES/brennaobrien.com/portfolio.sublime-project"
+			],
+			[
+				"opr",
+				"~/Google Drive/SITES/brennaobrien.com/portfolio.sublime-project"
+			],
+			[
+				"brenna",
+				"~/Google Drive/SITES/brennaobrien.com/portfolio.sublime-project"
+			],
+			[
+				"ha",
+				"~/Google Drive/SITES/_hackeryou/web_dev_full_time/hackeryou-full-time.sublime-project"
+			],
+			[
+				"hack",
+				"/Users/Brenna/Google Drive/SITES/_hackeryou/hackeryoudotcom/hackeryoudotcom.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

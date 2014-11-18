@@ -4,18 +4,19 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>The Internet of Shapes</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="How to craft geometric designs with front-end code">
+		<meta name="author" content="Brenna O'Brien">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/brenzone.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -42,353 +43,1550 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
+
+        <section data-background="img/bg-diag.png">
+					<h1 class="main">The Internet<br> of Shapes</h1>
+          <br>
 				</section>
 
-				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+        <section>
+          <p class="small" style="text-transform: uppercase;">or</p>
+          <h3>how to craft geometric designs<br> with front-end code</h3>
+        </section>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+				<section>
+					<h2>Brenna O'Brien</h2>
+					<a href="http://twitter.com/brnnbrn">@brnnbrn</a>
 				</section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
+        <!-- <section>
+          <section data-background="img/toronto.jpg">
+            <h2>Toronto</h2>
+            <aside class="notes">
+             <p>i come from Toronto, which has some fun archaic public transit vehicles too</p>
+            </aside>
+          </section>
+          <section data-background="img/canada.jpg">
+            <p>that's in Canada</p>
+            <aside class="notes">
+              <p>that's a long ways over on the east side and up a little bit</p>
+            </aside>
+          </section>
+        </section> -->
+
+        <section data-background="img/hackeryou-class-dark.jpg">
+          <h2>HackerYou</h2>
+          <a href="http://hackeryou.com">hackeryou.com</a>
+          <aside class="notes">
+            <p>* independent technology school</p>
+            <p>* where I teach a bootcamp on front-end web development</p>
+          </aside>
+        </section>
+
+
+        <section data-background="img/front-end-dev.jpg">
+          <h2>front-end developer</h2>
+          <aside class="notes">
+            <p>* really cool area of development and technology to be in</p>
+            <p>* because I get to build cool things out of these basic code building blocks every day</p>
+          </aside>
+        </section>
+
+        <section>
+  				<section data-background="img/csshex-dark.jpg">
+  					<h2><a href="http://csshexagon.com">csshexagon.com</a></h2>
+            <aside class="notes">
+              <p>* like csshexagon.com</p>
+              <p>* it's a tool to build hexagons out of pure HTML & CSS</p>
+              <p>* how do you become an expert in building hexagons?</p>
+            </aside>
+  				</section>
+
+          <section data-background="img/hex-site.png" data-state="has-caption">
+            <!-- <p class="caption dark"><a href="http://canadaslandwatch.com">canadaslandwatch.com</a></p> -->
+            <aside class="notes">
+              <p>* you find a designer that asks you to build this.</p>
+            </aside>
+          </section>
+          <section>
+            <h2>Why not just use an image?</h2>
+            <aside class="notes">
+              <p>* now you might be tempted when implementing something like this to cut out a bunch of hexagonally shaped images with transparent backgrounds,</p>
+
+              <p>*and that's how the web worked for a really long time - HTML & CSS didn't have the capacity to do much other than flat colours and rectangular boxes</p>
+              <p>* but there's a couple reasons why that's not really sufficient any longer</p>
+            </aside>
+          </section>
+        </section>
+
+        <section data-background="#128B98">
+          <h1>Why?</h1>
+        </section>
+        <section>
+          <h2>#webperf</h2>
+          <aside class="notes">
+            * performance matters when it comes to web development
+            * we have to operate under the constraint of an internet connection,
+            and images are one of the most hefty resources to have to download
+            * so cutting out hundreds of hexagons with transparency wasn't an option for me as a responsible front-end developer
+          </aside>
+        </section>
+
+        <section>
+          <div>
+            <img src="img/interaction-sketch.jpg" alt="">
+            <br>
+            <a class="ref" href="http://www.kooslooijesteijn.net/sketching-websites/">Source: http://www.kooslooijesteijn.net/sketching-websites/</a>
+          </div>
+        </section>
+
+        <section>
+          <!-- <h3>CODE ALL THE THINGS!</h3> -->
+          <!-- <img src="img/code-allthethings.jpg" alt="" width="800"> -->
+          <img src="img/css-allthethings.png" alt="" width="900">
+          <aside class="notes">
+            <p>* but there's another reason i wasn't going to settle for an image</p>
+            <p>* i'm going to build things out of code because i can</p>
+            <p>* there's something about the challenge of building a complex design out of just HTML & CSS that i just can't stay away from</p>
+            <p>* it's really cool to be able to build somethign like this out of just little code bits</p>
+            <p>* and you might be doing your fellow web designers and developers a favour</p>
+          </aside>
+        </section>
+
+        <section>
+          <!-- <section data-background-image="img/everybody.jpg" data-background-position="bottom"> -->
+            <section>
+              <h2>Everybody Loves Shapes</h2>
+            <aside class="notes">
+              * because geometric designs are starting to show up everywhere!
+            </aside>
+  				</section>
+          <section data-background-image="img/geo-example1.png">
+            <aside class="notes">
+              * take a look at any web design gallery and you'll see a lot of stuff like this
+            </aside>
+          </section>
+          <section data-background-image="img/geo-example2.png">
+            <aside class="notes">
+              * and this
+              * (http://killthemess.com/)
+            </aside>
+          </section>
+          <section data-background-image="img/geo-example5.png">
+            <aside class="notes">
+              * and this
+            </aside>
+          </section>
+          <section data-background-image="img/geo-example4.png">
+            <aside class="notes">
+              * and even more subtle variations like this
+              * as the flat desgin movement gains popularity i think we're seeing this more and more just like the rise in strong typography and iconography
+            </aside>
+          </section>
+        </section>
+
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<h3>Makes shapes with code...</h3>
+            <p class="fragment">because web performance matters</p>
+            <p class="fragment">because websites have moving parts</p>
+            <p class="fragment">because you love a good challenge</p>
+            <p class="fragment">because everybody loves shapes</p>
+						<!-- <p class="fragment">because shapes are cool</p> -->
+            <aside class="notes">
+              <p>so to recap here, we're going to make shapes with code because</p>
+            </aside>
 					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
+
+				<section data-background="#128B98">
+						<h1>How?</h1>
+
+            <aside class="notes">
+              so now that we now why, let's take a look at how
+            </aside>
 				</section>
 
 				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-					</p>
+					<h3>Tried and True</h3>
+					<p class="fragment">CSS Triangle Hack</p>
+					<p class="fragment">CSS <code>border-radius</code></p>
+          <aside class="notes">
+            * there's a couple of methods that have been around for a while now, namely the CSS triangle and making rounded shapes with border-radius
+          </aside>
 				</section>
+				<section>
+					<h3>Getting Fancy</h3>
+          <p class="fragment">CSS <code>linear-gradient</code></p>
+					<p class="fragment">CSS <code>transforms</code></p>
+					<p class="fragment">SVG (scalable vector graphics)</p>
+				</section>
+				<section>
+					<h3>Sky's the Limit</h3>
+          <p class="fragment">HTML5 Canvas</p>
+					<p class="fragment">go crazy with JavaScript libraries</p>
+				</section>
+
+
+        <!-- ===============================================
+          ::TRIANGLE HACK::
+        ================================================ -->
+
+				<section data-background="#128B98">
+					<h2>CSS Triangle Hack</h2>
+					<div class="triangle"></div>
+				</section>
+<!--
+        <section>
+          <h2>2008!</h2>
+          <a class="ref" href="http://www.howtocreate.co.uk/tutorials/css/slopes">http://www.howtocreate.co.uk/tutorials/css/slopes</a>
+        </section> -->
+
+        <section data-background-image="img/triangle-tutorial.jpg" data-background-position="top">
+           <div class="overlay">
+            <h3 class="bottomless">2008</h3>
+            <a class="ref" href="http://www.howtocreate.co.uk/tutorials/css/slopes">http://www.howtocreate.co.uk/tutorials/css/slopes</a>
+            </div>
+        </section>
+
 
 				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
+					<div class="triangle-box-demo">
+						<div class="triangle-box">
 
+						</div>
+					</div>
+					<div class="triangle-box-info">
+            <h3>CSS Triangle</h3>
+						<p>CSS borders bevel at the corners</p>
+						<p class="fragment shrink-triangle">shrink the box and the beveled corners become triangles!</p>
+						<p class="fragment hide-triangle">hide the triangles you don't need with transparent borders</p>
+					</div>
+				</section>
 				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
-				</section>
 
-				<section>
-					<h2>Marvelous Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
+					<div class="triangle-box-demo">
+						<div class="triangle-box-done">
 
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  For those of you who like that sort of thing.
-						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=cube#/transitions">Cube</a> -
-						<a href="?transition=page#/transitions">Page</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a> -
-						<a href="?transition=linear#/transitions">Linear</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?#/transitions">Default</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="?#/themes">Default</a> -
-						<a href="?theme=sky#/themes">Sky</a> -
-						<a href="?theme=beige#/themes">Beige</a> -
-						<a href="?theme=simple#/themes">Simple</a> -
-						<a href="?theme=serif#/themes">Serif</a> -
-						<a href="?theme=night#/themes">Night</a> <br>
-						<a href="?theme=moon#/themes">Moon</a> -
-						<a href="?theme=solarized#/themes">Solarized</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<section data-background="#007777">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#007777"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Repeated Image Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-				</section>
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>Background Transitions</h2>
-					<p>
-						Pass reveal.js the <code>backgroundTransition: 'slide'</code> config argument to make backgrounds slide rather than fade.
-					</p>
-				</section>
-
-				<section data-transition="linear" data-background="#8c4738" data-background-transition="slide">
-					<h2>Background Transition Override</h2>
-					<p>
-						You can override background transitions per slide by using <code>data-background-transition="slide"</code>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
+						</div>
+					</div>
+					<div class="triangle-box-info left">
+              <h3>CSS Triangle</h3>
+							<pre><code class="css">
+  .triangle {
+    width: 0;
+    height: 0;
+    border: solid 50px transparent;
+    border-bottom-color: #64C7CC;
   }
-}
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+							</code></pre>
+              <a class="small" href="http://apps.eky.hk/css-triangle-generator/">CSS  Triangle Generator</a>
+          </div>
+				</section>
+
+        <section data-background-image="img/cssarrowplease.png" data-background-position="top">
+        <!-- <section> -->
+          <!-- <img src="img/cssarrowplease.png" alt=""> -->
+          <!-- <a class="ref" href="css">cssarrowplease.com</a> -->
+          <div class="overlay-wrap">
+            <a class="small top-overlay" href="http://cssarrowplease.com" >cssarrowplease.com</a>
+          </div>
+          <aside class="notes">
+            * and once you know how to make a triangle, you know how to make a box with an arrow
+          </aside>
+        </section>
+
+        <section data-background-image="img/forgerock-slant.png" data-background-position="top right">
+          <div class="overlay-wrap">
+            <p class="small top-overlay">
+              <a href="http://forgerock.com">forgerock.com</a> / <a href="http://jsfiddle.net/EJxFg/1/">JSFiddle example</a>
+            </p>
+          </div>
+          <aside class="notes">
+            * and you know how to make angled edges
+            * (http://forgerock.com/)
+          </aside>
+        </section>
+
+        <section data-background-image="img/css-ribbon-crop.jpg" data-background-position="top">
+          <div class="overlay-wrap">
+            <a href="http://jameskoster.co.uk/snippets/pure-css-3d-ribbon/" class="small top-overlay">CSS Ribbon Tutorial</a></div>
+          <aside class="notes">
+            * and you know how to make a ribbon
+            * all thanks to the way borders work in CSS
+          </aside>
+        </section>
+
+
+        <!-- ===============================================
+          ::BORDER-RADIUS::
+        ================================================ -->
+
+				<section data-background="#128B98">
+					<h2>CSS <code>border-radius</code></h2>
+					<div class="circle"></div>
+				</section>
+
+        <section>
+          <div class="half">
+            <p>round corners</p>
+            <pre class="centered"><code>  border-radius: 10px;</code></pre>
+            <div class="round-corner-demo"></div>
+          </div>
+          <div class="half">
+            <p>make circles</p>
+            <pre class="centered"><code>  border-radius: 50%;</code></pre>
+            <div class="full-circle-demo"></div>
+          </div>
+        </section>
+
+				<!-- <section>
+					<h3>CSS circle</h3>
+				 	<div class="circle-demo"></div>
+				 	<div class="circle-demo-info">
+				 		<p><code>border-radius</code> rounds corners</p>
+				 		<p class="fragment make-circle">round them enough and you get a circle</p>
+				 	</div>
 				</section>
 
 				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
+					<h3>CSS circle</h3>
+				 	<div class="circle-demo-done"></div>
+				 	<div class="circle-demo-info">
+				 		<pre><code>
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #64C7CC;
+  }
+				 		</code></pre>
+          </div>
+        </section>
+ -->
+
+        <section data-background-image="img/learning-labs.png" data-background-position="bottom">
+          <div class="overlay-wrap">
+            <a href="http://learninglabs.org" class="small top-overlay">learninglabs.org</a>
+          </div>
+          <aside class="notes">
+            * you can easily put text inside a circle, and it's easy to change and maintain that text going forward
+          </aside>
+        </section>
+        <section data-background-image="img/circle-avatars.png" data-background-position="top">
+          <div class="overlay-wrap">
+            <a href="http://supersteil.com/about/team/" class="small top-overlay">supersteil.com</a>
+          </div>
+          <aside class="notes">
+            * the cool thing about this is no one needs to waste time cutting out a bunch of circular pictures, border-radius turns any old square image into a circle
+          </aside>
+        </section>
+
+        <!-- * maybe show flip circle animations?  easy to move things when they're done in code only, along the same lines with responsive design
+        a website !== online poster -->
+
+        <!-- * maybe add in subtle nav dots from http://www.pushhere.com/ -->
+
+        <!-- ===============================================
+          ::GRADIENTS::
+        ================================================ -->
+
+        <section data-background="img/bg-diag.png">
+          <h2>CSS <code>linear-gradient</code></h2>
+        </section>
+
+        <section>
+          <p>linear gradient</p>
+          <div class="gradient-box"></div>
+          <pre class="css"><code>
+  .gradient-box {
+    background: linear-gradient(#64C7CC 0%, #128B98 100%);
+  }
+          </code></pre>
+
+          <aside class="notes">
+            <p>we've been able to use gradients as backgrounds in CSS for a while, so you  might be familiar with this</p>
+            <p>Note: fancy CSS like gradients and transforms is used without vendor prefixes in this presentation. You might need them in production.</p>
+          </aside>
+        </section>
+
+        <section>
+          <p>linear gradient with hard stops</p>
+          <div class="gradient-box hard-stops"></div>
+          <pre class="css"><code>
+  .gradient-box {
+    background: linear-gradient(#64C7CC 0%, #64C7CC 50%,
+                                #128B98 50%, #128B98 100%);
+  }
+          </code></pre>
+
+        </section>
+
+        <section>
+          <p>angle for a slanty background </p>
+          <div class="gradient-box hard-stops angled">
+            <p class="cool-bg">cool<br> background, <br>bro</p>
+          </div>
+          <pre class="css"><code>
+  .gradient-box {
+    background: linear-gradient(-45deg, #64C7CC 0%, #64C7CC 50%,
+                                #128B98 50%, #128B98 100%);
+  }
+          </code></pre>
+
+        </section>
+
+        <section>
+          <p>repeat for stripes!</p>
+          <div class="gradient-box hard-stops repeating"></div>
+          <pre class="css"><code>
+  .gradient-box {
+    background-image: linear-gradient(#64C7CC 0%, #64C7CC 50%, #128B98 50%, #128B98 100%);
+    background-size: 70px;
+  }
+          </code></pre>
+          <aside class="notes">
+            <p>STRIPES!</p>
+            <p>i've kept the contrast between the two pretty high for the sake of the presentation but you can make this more subtle and have a nice striped background made in pure CSS</p>
+          </aside>
+        </section>
+
+        <section >
+            <img src="img/css3-patterns.png" alt=""><br>
+            <a href="http://lea.verou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/" class=" small">Lea Verou - CSS3 Patterns</a>
+        </section>
+
+        <!-- ===============================================
+          ::TRANSFORMS::
+        ================================================ -->
+
+				<section data-background="#128B98">
+					<h2>CSS <code>transforms</code></h2>
+					<div class="diamond"></div>
+				</section>
+
+        <section>
+          <h3>2D Transforms</h3>
+        </section>
+
+        <section>
+          <h3>Basic Transforms</h3>
+          <p><code>translate</code></p>
+          <p class="fragment grow" data-fragment-index="1"><code>rotate</code></p>
+          <p class="fragment grow" data-fragment-index="1"><code>skew</code></p>
+          <p class="fragment grow" data-fragment-index="1"><code>scale</code></p>
+          <a class="ref" href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform">MDN: CSS Transforms</a>
+          <aside class="notes">
+            <p>translate essentially moves thing left, right, up and down in the browser plane, so it's going to be these last three - rotate, skew and scale that are particularly useful for changing squares and rectangles into other shapes</p>
+          </aside>
+        </section>
+
+        <!-- ===============================================
+          ::ROTATE::
+        ================================================ -->
+
+        <section>
+          <p><code>rotate</code></p>
+          <div class="transform-box rotate-box"></div>
+          <pre class="centered inline fragment animate-rotate"><code>  transform: rotate(20deg);</code></pre>
+        </section>
+
+        <section>
+          <div class="diamond-demo"></div>
+          <div class="diamond-demo-info">
+            <h3>CSS diamond</h3>
+            <p>start with a square</p>
+            <p class="fragment make-diamond">rotate just enough to make it stand on its corner</p>
+            <br>
+          </div>
+        </section>
+
+        <section>
+          <div class="diamond-demo-done"></div>
+          <div class="diamond-demo-info">
+            <h3>CSS diamond</h3>
+            <pre><code>
+  .diamond {
+    width: 150px;
+    height: 150px;
+    background: #64C7CC;
+    transform: rotate(45deg);
+  }
+            </code></pre>
+          </div>
+        </section>
+
+        <section data-background-image="img/diamond.png"></section>
+
+        <section>
+          <section>
+            <img src="img/andy-shield.gif" alt="">
+            <a class="ref" href="http://andy-shield.co.uk/">http://andy-shield.co.uk/</a>
+          </section>
+
+          <!-- <section>
+            <img src="img/andy-shield-mobile.png" alt="" width="350">
+            <br>
+            <a class="ref" href="http://andy-shield.co.uk/">http://andy-shield.co.uk/</a>
+            <aside class="notes">
+              <p>and another cool things about this is because we have individually transformed squares and not a bg-image, we can easily shuffle the pieces around to create a different view on different screen sizes</p>
+            </aside>
+          </section> -->
+        </section>
+
+        <section>
+          <img src="img/rotated-lines.png" alt="" width="600">
+          <p><a href="http://tympanus.net/Development/HoverEffectIdeas/" class="ref">http://tympanus.net/Development/HoverEffectIdeas/</a></p>
+          <aside class="notes">
+            <p>another cool application for 45 degree rotations is making these subtle diagonal lines</p>
+          </aside>
+        </section>
+
+        <!-- ===============================================
+          ::SKEW::
+        ================================================ -->
+
+        <section>
+          <p><code>skew</code></p>
+          <div class="transform-box skew-box"></div>
+          <pre class="centered inline fragment animate-skew"><code>  transform: skew(20deg);</code></pre>
+        </section>
+
+        <section data-background-image="img/skewboxes.png">
+          <div class="overlay-wrap">
+            <a class="small top-overlay" href="http://codepen.io/joshbader/pen/xouqf/">Tiltlist on CodePen</a>
+          </div>
+          <aside class="notes">
+            * one thing you do have to watch out for is that your content will get transformed along with it's container, maybe that's what you want but in some cases that's not the desired effect
+          </aside>
+        </section>
+
+        <section>
+          <video src="img/skew-page2.mov" data-autoplay loop poster="img/skew-page2.png"></video>
+          <a class="ref" href="http://www.quechua.com/2seconds/en_EN/intro">http://www.quechua.com/2seconds/en_EN/intro</a>
+        </section>
+
+
+        <section data-state="transforms">
+          <p>content gets transformed with it's container!</p>
+ <!--          <div class="third">
+              <div class="transform-box rotate-45"><p>rotate</p></div>
+          </div>
+          <div class="third">
+              <div class="transform-box scale"><p>scale</p></div>
+          </div> -->
+          <div class="quarter skew-contents-demo">
+            <div class="transform-box skew"><p>skew</p></div>
+          </div>
+          <div class="quarter">
+            <div class="transform-box rotate-45"><img src="img/b-square.jpg"></div>
+          </div>
+        </section>
+
+        <section data-state="transform">
+          <div class="shape-demo">
+            <div class="transform-box skew"><p class="counter-skew-elem">skew</p></div>
+          </div>
+          <div class="shape-info">
+            <p>reset with a counter-transform</p>
+            <pre><code class="css">
+  .skew {
+    width: 150px;
+    height: 150px;
+    background: #64C7CC;
+    transform: skew(20deg);
+  }
+  </code></pre>
+  <pre class="fragment animate-counter-skew"><code class="css">
+  .skew p {
+    transform: skew(-20deg);
+  }
+            </code></pre>
+            <a class="ref clear" href="http://codepen.io/brenna/pen/jxcIt">counter transformations on CodePen</a>
+            <aside class="notes">
+              <p>we can fix that up with a counter-transformation</p>
+              <p>we take the child element - in this case a paragraph that holds the text and do the opposite transformation </p>
+              <p>same goes for images inside transformed shapes</p>
+            </aside>
+          </div>
+        </section>
+
+        <!-- ===============================================
+          ::SCALE::
+        ================================================ -->
+
+        <section>
+          <p><code>scale</code></p>
+          <div class="transform-box scale-box"></div>
+          <pre class="centered inline fragment animate-scale"><code>  transform: scale(1.3);</code></pre>
+        </section>
+
+        <section>
+          <div class="half">
+            <p><code>scaleX</code></p>
+            <div class="transform-box scaleX-box"></div>
+            <pre class="centered fragment animate-scaleXY" data-fragment-index="1"><code>transform: scaleX(2);</code></pre>
+          </div>
+          <div class="half">
+            <p><code>scaleY</code></p>
+            <div class="transform-box scaleY-box"></div>
+            <pre class="centered fragment" data-fragment-index="1"><code>transform: scaleY(2);</code></pre>
+          </div>
+        </section>
+
+        <section>
+          <div class="half">
+            <p><code>stretch</code></p>
+            <div class="transform-box stretchY-box"></div>
+            <pre class="centered fragment animate-stretchcompress" data-fragment-index="1"><code>transform: scaleY(2);</code></pre>
+          </div>
+          <div class="half">
+            <p><code>compress</code></p>
+            <div class="transform-box compressY-box"></div>
+            <pre class="centered fragment" data-fragment-index="1"><code>transform: scaleY(0.5);</code></pre>
+          </div>
+        </section>
+
+        <!-- ===============================================
+          ::COMBINING Transforms::
+        ================================================ -->
+
+        <section>
+          <div class="diamond-narrow-demo"></div>
+          <div class="diamond-demo-info short">
+            <h3>combining transformations</h3>
+            <p>45 degree rotation<p>
+            <p class="fragment stretch-diamond">and a vertical compression</p>
+          </div>
+        </section>
+
+        <section>
+          <div class="diamond-narrow-demo-done"></div>
+          <div class="diamond-demo-info">
+            <h3>combining transformations</h3>
+            <pre><code>
+  .narrow-diamond {
+    width: 150px;
+    height: 150px;
+    background: #64C7CC;
+    transform: scaleY(0.6) rotate(45deg);
+  }
+            </code></pre>
+          </div>
+        </section>
+
+        <section>
+          <p>order of transforms matter!</p>
+          <div class="half">
+            <div class="diamond-narrow"></div>
+            <pre class="centered"><code>scaleY(0.6) rotate(45deg)</code></pre>
+          </div>
+          <div class="half">
+            <div class="diamond-narrow-oops"></div>
+            <pre class="centered"><code>rotate(45deg) scaleY(0.6)</code></pre>
+          </div>
+        </section>
+
+        <section data-background="img/lego.jpg">
+          <div class="overlay">
+            <p><code>translate</code></p>
+            <p><code>rotate</code></p>
+            <p><code>scale</code></p>
+            <p><code>skew</code></p>
+          </div>
+          <aside class="notes">
+            <p>once you know all the basic transforms and basic shapes, you can think of them as little lego blocks</p>
+            <p>and use them to build just about anything you can imagine</p>
+          </aside>
+        </section>
+
+        <section data-background="img/lego-shark.jpg"></section>
+
+        <!-- only put this in if i have extra time -->
+        <!-- <section data-state="transform">
+          <p>fine-tune with <code>transform-origin</code></p>
+          <pre><code>
+  .skew {
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+  }
+
+  .skew p {
+    transform: skew(-45deg);
+    transform-origin: 75px 75px;
+  }
+          </code></pre>
+        </section> -->
+
+        <section>
+          <div class="half">
+            <div class="chevron asplode"></div>
+          </div>
+          <div class="half">
+            <div class="chevron"></div>
+          </div>
+
+          <a href="http://css-tricks.com/examples/ShapesOfCSS/" class="ref">http://css-tricks.com/examples/ShapesOfCSS/</a>
+          <aside class="notes">
+            <p>another example is combining two skewed elements to make a chevron shape</p>
+            <p>lots more examples in this css tricks articles, some that include clever uses of border-radius too</p>
+          </aside>
+        </section>
+
+
+        <section data-background="img/hex-asplode2.png">
+          <aside class="notes">
+            <p>one technique for making a hexagon is to combine a rectangle and two narrow diamonds</p>
+            <p>i've moved them away from their natural position here on the right to show that</p>
+            <p>and this is also going to involve that counter transformation technique to make the image display correctly
+            across all three component shapes</p>
+          </aside>
+        </section>
+
+
+        <!-- ===============================================
+          ::3D Transforms::
+        ================================================ -->
+
+        <section>
+          <h3 class="three-dee">3D Transforms</h3>
+        </section>
+
+
+        <section>
+          <p>X, Y and Z</p>
+          <div class="transform-box three-d"></div>
+          <pre class="inline"><code class="css">
+  transform: rotateX(45deg);
+
+  /*alternate syntax */
+  transform: rotate3D(45deg, 0, 0);
+          </code></pre>
+          <aside class="notes">
+            <p>with 3d transforms we get access to x y and z plane, so something like a rotation isn't just in the browser plane , which sort of tilts your element as if it were coming in and out of the browser screen</p>
+            <p>the only one of our basic 2d transforms that doesn't have a 3-d analogue is skew, translate, transform and rotate all can be done in 3d</p>
+          </aside>
+        </section>
+
+        <section data-background-image="img/3d-transforms.jpg">
+          <div class="overlay-wrap">
+            <a class="small top-overlay" href="http://desandro.github.io/3dtransforms/docs/3d-transform-functions.html">http://desandro.github.io/3dtransforms/docs/3d-transform-functions.html</a>
+          </div>
+          <aside class="notes">
+            <p>here we can see that x rotation again, along with the effect of Y and Z rotations. Notice translating along the Z axis create a zoom in and out effect</p>
+            <p>this is from a really great tutorial and article that explains transforms from the ground up</p>
+          </aside>
+        </section>
+
+        <section data-background="img/3d-transform-letters-inc.png">
+          <div class="overlay-wrap">
+            <a class="small top-overlay" href="http://letters-inc.jp/">http://letters-inc.jp/</a>
+          </div>
+          <aside class="notes">
+            <p>so you can tilt your entire content on a 3-d plane for some interesting effects</p>
+          </aside>
+        </section>
+
+        <section>
+          <p>3D Solids</p>
+          <img src="img/cube-clock.png" alt="" width="1000"><br>
+          <a href="http://tympanus.net/Tutorials/HexaFlip/index2.html" class="ref">http://tympanus.net/Tutorials/HexaFlip/index2.html</a>
+          <aside class="notes">
+            <p>and you can start building up 3-d solids as well</p>
+          </aside>
+        </section>
+
+        <section>
+          <p>+ transitions and animations</p>
+          <img src="img/hold-on-to-your-butts.jpg" alt="" class="stretch fragment">
+        </section>
+
+        <section>
+          <video src="img/card-flip2.mov" data-autoplay loop poster="img/card-flip2."></video>
+          <a href="http://pushhere.com" class="ref">pushhere.com</a>
+          <aside class="notes">
+            <p>this is a really cool techinique that i'm seeing a lot lately</p>
+            <p>transitioning a rotation in the y axis gives a card flip effect when someone hovers</p>
+          </aside>
+        </section>
+
+  <!--       <section>
+          <video src="img/icosidodecahedron.mov" data-autoplay loop width="900"></video>
+          <p><a class="ref" href="http://thesassway.com/advanced/inverse-trigonometric-functions-with-sass">rotating icosidodecahedron</a></p>
+        </section> -->
+
+        <section>
+          <video src="img/transform-roll.mov" data-autoplay loop width="900" poster="img/transform-roll.gif"></video>
+          <p><a class="ref" href="http://codepen.io/thebabydino/pen/pzgiE">http://codepen.io/thebabydino/pen/pzgiE</a></p>
+        </section>
+
+
+        <!-- ===============================================
+          ::SVG::
+        ================================================ -->
+
+				<section data-background="#128B98">
+					<h2>SVG</h2>
+					<img class="heart" src="img/spiral.svg">
+          <aside class="notes">
+            <p>So another newer technique that's been gaining a lot of popularity lately is SVG</p>
+          </aside>
 				</section>
 
 				<section>
-					<section id="fragments">
-						<h2>Fragmented Views</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<ol>
-							<li class="fragment"><code>any type</code></li>
-							<li class="fragment"><em>of view</em></li>
-							<li class="fragment"><strong>fragments</strong></li>
-						</ol>
+          <h3>Scalable Vector Graphics</h3>
+          <aside class="notes">
+            <p>svg stands for scalable vector graphics</p>
+            <p>and a big reason why it's been gaining popularity is that's it's a....</p>
+          </aside>
+        </section>
 
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's a few styles of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-green">highlight-green</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-current-blue">highlight-current-blue</p>
-					</section>
-				</section>
+        <section>
+          <img src="img/raster-vector.png" alt="" style="background:#fff">
+          <p><a class="ref" href="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">http://en.wikipedia.org/wiki/Scalable_Vector_Graphics</a></p>
+          <aside class="notes">
+            <p>... resolution independent format.</p>
+            <p>So unlike your pixel based jpg and png and gif which loose fidelity when scaled up, svgs shapes are actually definted by a vector path, which means they stay nice and crisp at any resolution</p>
+          </aside>
+        </section>
+
+        <section data-background="img/24-ways.png">
+          <div class="overlay-wrap">
+            <a href="http://24ways.org/" class="small top-overlay">http://24ways.org/</a>
+          </div>
+          <aside class="notes">
+            <p>as an example of this, check out the background on 24 ways</p>
+          </aside>
+        </section>
+
+        <section data-background="img/24-ways-enlarge-bright.jpg"></section>
+
+        <section>
+          <div class="half">
+            <img src="img/pattern-dark.svg" alt="" width="408" style="background: #fff">
+            <p>pattern.svg @ 3x</p>
+          </div>
+          <div class="half fragment">
+            <img src="img/pattern-dark.png" alt="" width="408" style="background: #fff">
+            <p>pattern.png @ 3x</p>
+          </div>
+          <aside class="notes">
+            <p>this background patter is made by tiling one little svg image. i've scaled it up here for you to see</p>
+            <p>now compare this with the same pattern saved as a png and it starts to get really hairy</p>
+            <p>so moral of the story is that SVG images are going to look great at any scale, and especially on high-res retina devices</p>
+          </aside>
+        </section>
+
+
+<!--         <section data-background-image="img/think-svg.png" data-background-position="center">
+          <aside class="notes">
+            <p>this means it's a great choice for all your high-resolution devices and that included retina displays</p>
+          </aside>
+        </section> -->
+
+        <section data-background-image="img/young-jobs-svg.jpg" data-background-position="top-left">
+          <aside class="notes">
+            <p>this means it's a great choice for all your high-resolution devices and that included retina displays</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>including SVG</h3>
+          <aside class="notes">
+            <p>let's take a look at some other methods of using svg in your sites</p>
+          </aside>
+        </section>
+
+        <section>
+          <p>linked .svg file</p>
+          <pre class="centered inline"><code>
+  &lt;img src="images/heart.svg" alt="heart"&gt;
+          </code></pre>
+          <aside class="notes">
+           <p>that first site was an example of linking to it like a regular image file, either in HTML or CSS</p>
+          </aside>
+        </section>
+
+        <section data-background="img/svg-xml.png" data-background-position="top left">
+          <div class="overlay">
+            <h2><code>&lt;XML&gt;</code></h2>
+          </div>
+          <aside class="notes">
+            <p>but if you open up an svg iamge file in a text editor you're going to see it's all code based, xml to be precise</p>
+          </aside>
+        </section>
+
+        <section>
+          <p>&lt;svg&gt; element </p>
+          <pre><code>
+  &lt;svg width="175px"
+  height="175px" viewBox="0 0 100 100"&gt;
+    &lt;line x1="116.139" y1="8.305" x2="12.25" y2="112.194"/&gt;
+    &lt;line x1="12.25" y1="112.194" x2="117.514" y2="217.458"/&gt;
+    &lt;line x1="117.514" y1="217.458" x2="221" y2="113.972"/&gt;
+  &lt;/svg&gt;
+          </code></pre>
+          <a class="ref" href="http://css-tricks.com/using-svg/">CSS Tricks: Using SVG</a>
+          <aside class="notes">
+            <p>so you can go ahead and grab the chunk of the file that says svg and plop that right into your html as it's own element. it'll show up on the page just the same.</p>
+            <p>the benefit of this, we'll see is a lot of finer grained control of the image</p>
+          </aside>
+        </section>
+
+        <!-- ===============================================
+          ::SVG Shapes::
+        ================================================ -->
+
+        <section>
+          <h3>Basic SVG Shapes</h3>
+          <aside class="notes">
+            <p>once you're working with the svg element itself, we can start crafting some basic svg shapes right inside that tag - in your html</p>
+          </aside>
+        </section>
+
+        <section data-state="svg-shapes">
+          <div class="third">
+  					<p><code>&lt;circle&gt;</code></p>
+            <svg viewBox="0 0 150 150" width="150" height="150" fill="#64C7CC">
+              <circle cx="75" cy="75" r="70"/>
+            </svg>
+          </div>
+          <div class="third">
+  				 <p><code>&lt;ellipse&gt;</code></p>
+           <svg viewBox="0 0 150 150" width="150" height="150" fill="#64C7CC">
+             <ellipse cx="75" cy="75" rx="70" ry="50"/>
+           </svg>
+          </div>
+          <div class="third">
+  				 <p><code>&lt;rect&gt;</code></p>
+           <svg viewBox="0 0 150 150" width="150" height="150" fill="#64C7CC">
+             <rect x="5" y="35" width="140" height="80"/>
+           </svg>
+          </div>
+          <div class="third">
+  					<p><code>&lt;polygon&gt;</code></p>
+            <svg viewBox="0 0 150 150" width="150" height="150" fill="#64C7CC">
+              <polygon points="80,5 145,5 115,145 5,145"/>
+            </svg>
+          </div>
+          <div class="third">
+            <p><code>&lt;line&gt;</code></p>
+            <svg viewBox="0 0 150 150" width="150" height="150" stroke="#64C7CC" stroke-width="5">
+              <line x1="0" y1="150" x2="150" y2="0"/>
+            </svg>
+          </div>
+          <div class="third">
+            <p><code>&lt;polyline&gt;</code></p>
+            <svg viewBox="0 0 150 150" width="150" height="150" stroke="#64C7CC" stroke-width="5">
+              <polyline points="0,150 40,60 70,100 150,20">
+            </svg>
+          </div>
+          <a class="ref" href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element#Basic_shapes">basic SVG shapes on MDN</a>
+          <aside class="notes">
+            <p> these are the shapes!</p>
+          </aside>
+  			</section>
+
+        <section data-state="svg-shapes">
+          <p>shapes are defined by co-ordinates</p>
+          <div class="shape-demo">
+            <svg viewBox="0 0 100 100" width="150" height="150" fill="#64C7CC">
+              <circle cx="50" cy="50" r="45"/>
+            </svg>
+          </div>
+          <div class="shape-info">
+            <pre><code>
+  &lt;svg viewBox="0 0 100 100" width="150" height="150" fill="#64C7CC"&gt;
+    &lt;circle cx="50" cy="50" r="45"/&gt;
+  &lt;/svg&gt;
+            </code></pre>
+          </div>
+          <div class="clear"></div>
+          <div class="shape-demo">
+            <svg viewBox="0 0 100 100" width="150" height="150" stroke="#64C7CC" stroke-width="3">
+              <line x1="0" y1="100" x2="100" y2="0"/>
+            </svg>
+          </div>
+          <div class="shape-info">
+            <pre><code>
+  &lt;svg viewBox="0 0 100 100" width="150" height="150" stroke="#64C7CC" stroke-width="3" &gt;
+    &lt;line x1="0" y1="150" x2="150" y2="0"/&gt;
+  &lt;/svg&gt;
+            </code></pre>
+          </div>
+          <aside class="notes">
+            <p>and we're gonna create them by specifying a number of coordinates</p>
+            <p>just one think to note, since they're resolution independent, notice the coordinates don't have units, it's all going to be relative to this viewbox you create and then you size with with and height attributes or throughCSS</p>
+          </aside>
+        </section>
+
+        <!-- ===============================================
+          ::SVG Path::
+        ================================================ -->
 
 				<section>
-					<h2>Spectacular image!</h2>
-					<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-						<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
-					</a>
-				</section>
+					<h3>anything goes with <code>&lt;path&gt;</code></h3>
+        </section>
 
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-					<script>
-						document.getElementById('slideshare').attributeName = 'allowfullscreen';
-					</script>
-				</section>
+        <section>
+          <div class="shape-demo">
+            <!-- <svg width="175px" height="175px" viewBox="0 0 100 100" fill="#64C7CC">
+              <path d="M98.2,17.305c-2.493-6.252-7.495-11.51-14.416-14.766C77.667-0.34,71.076-0.686,65.085,1.073  C59.096,2.832,53.71,7.626,50,13.168C46.291,7.626,40.905,2.832,34.916,1.073S22.334-0.34,16.217,2.539  C9.297,5.794,4.295,11.053,1.801,17.305c-2.493,6.252-2.504,13.511,0.638,20.73C9.161,53.477,49.787,89.719,50,90.338  c0.213-0.619,40.84-36.861,47.561-52.303C100.705,30.815,100.693,23.557,98.2,17.305z"/>
+            </svg> -->
+            <svg x="0" y="0" width="200" height="325"
+               viewBox="-99.979 -162.047 300 485" fill="#dedede">
+              <path  d="M53.531-149
+              C-49.869-1.886-87.109,139.671-92.709,305.44C-58.591,272.187,50.02,139.858,88.765,132.167
+              c25.854-5.135,48.595,26.062,102.307,128.312C178.008,116.698,118.265-54.826,53.531-149L53.531-149z"/>
+            </svg>
+          </div>
+          <div class="shape-info">
+					    <p><code>&lt;path&gt;</code></p>
+              <pre><code>
+  &lt;svg x="0px" y="0px" width="300px"
+  height="486.24px" viewBox="-99.979 -162.047 300 485"
+  fill="#dedede"&gt;
+    &lt;path  d="M53.531-149 C-49.869-1.886-87.109,
+    139.671-92.709,305.44C-58.591,272.187,50.02,139.858,
+    88.765,132.167 c25.854-5.135,48.595,26.062,102.307,
+    128.312C178.008,116.698,118.265-54.826,
+    53.531-149L53.531-149z"/&gt;
+  &lt;/svg&gt;
+              </code></pre>
+          </div>
 
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen
-						during a presentation.
-					</p>
-				</section>
+        </section>
 
-				<section>
-					<h2>Stellar Links</h2>
-					<ul>
-						<li><a href="http://slid.es">Try the online editor</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
-						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
-					</ul>
-				</section>
+        <section data-background="img/matrix.gif">
+          <div class="overlay">
+            <code>&lt;path&gt;</code>
+          </div>
+        </section>
 
-				<section>
-					<h1>THE END</h1>
-					<h3>BY Hakim El Hattab / hakim.se</h3>
-				</section>
+        <section data-background="img/save-from-ai.png"></section>
 
-			</div>
+        <section data-background="img/svg-js.png" data-background-position="top">
+          <div class="overlay-wrap">
+            <a href="http://www.svgjs.com/" class="top-overlay small">svg.js</a>
+          </div>
+        </section>
+
+        <section data-background="img/raphael-js.png" data-background-position="top">
+          <div class="overlay-wrap">
+            <a href="http://raphaeljs.com/" class="top-overlay small">Raphaël</a>
+          </div>
+        </section>
+
+        <section data-background="img/genpop-raphael.png">
+          <div class="overlay-wrap">
+            <a href="http://richgilbank.com/genpop/" class="top-overlay small">http://richgilbank.com/genpop/</a>
+          </div>
+        </section>
+
+        <!-- ===============================================
+          ::colouring SVG::
+        ================================================ -->
+
+        <section>
+          <h3>colouring SVG</h3>
+        </section>
+
+        <section>
+          <div class="shape-demo fill-stroke">
+            <svg viewBox="0 0 150 150" width="200" height="200" fill="#64C7CC" stroke="#fff" stroke-width="5">
+              <polygon points="80,5 145,5 115,145 5,145"/>
+            </svg>
+          </div>
+          <div class="shape-info">
+            <p><code>fill</code> and <code>stroke</code></p>
+            <pre><code>
+  &lt;svg fill="#128B98" stroke="#fff" stroke-width="5"&gt;
+            </code></pre>
+          </div>
+        </section>
+
+        <section>
+          <p>Yo dawg, I heard you like SVG...</p>
+        </section>
+
+        <section>
+          <div class="shape-demo">
+            <svg viewBox="0 0 150 150" width="300" height="300" fill="url(#triangles)" stroke="#fff" stroke-width="5">
+              <defs>
+                <pattern id="triangles" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <polygon points="10,0 20,20 0,20"/>
+                </pattern>
+              </defs>
+              <polygon points="80,5 145,5 115,145 5,145"/>
+            </svg>
+          </div>
+          <div class="shape-info">
+            <p>pattern fills</p>
+            <pre><code>
+  &lt;svg fill="url(#triangles)" stroke="#fff" stroke-width="5" viewBox="0 0 150 150" width="300" height="300"&gt;
+    &lt;defs&gt;
+      &lt;pattern id="triangles" width="20" height="20"
+      patternUnits="userSpaceOnUse" &gt;
+        &lt;polygon points="10,0 20,20 0,20"/&gt;
+      &lt;/pattern&gt;
+    &lt;/defs&gt;
+    &lt;polygon points="80,5 145,5 115,145 5,145"/&gt;
+  &lt;/svg&gt;
+            </code></pre>
+            <a class="ref" href="http://tutorials.jenkov.com/svg/fill-patterns.html">http://tutorials.jenkov.com/svg/fill-patterns.html</a>
+          </div>
+        </section>
+
+
+        <section data-background-image="img/bored-kanye.gif" data-background-position="bottom">
+        </section>
+
+        <section>
+          <div class="shape-demo pattern-fill">
+            <svg viewBox="0 0 150 150" width="300" height="300" fill="url(#gradient)" stroke="#fff" stroke-width="5">
+               <!-- magic! -->
+              <defs>
+                <linearGradient id="gradient">
+                  <stop offset="5%" stop-color="#64C7CC"/>
+                  <stop offset="70%" stop-color="#107D89"/>
+                </linearGradient>
+              </defs>
+              <!-- /magic! -->
+              <polygon points="80,5 145,5 115,145 5,145"/>
+              <!-- <path d="M53.531-149 -->
+              <!-- C-49.869-1.886-87.109,139.671-92.709,305.44C-58.591,272.187,50.02,139.858,88.765,132.167 -->
+              <!-- c25.854-5.135,48.595,26.062,102.307,128.312C178.008,116.698,118.265-54.826,53.531-149L53.531-149z"/> -->
+            </svg>
+          </div>
+          <div class="shape-info">
+            <p>pattern fills with gradients</p>
+            <pre><code>
+  &lt;defs&gt;
+    &lt;linearGradient id="gradient"&gt;
+      &lt;stop offset="5%" stop-color="#64C7CC"/&gt;
+      &lt;stop offset="70%" stop-color="#107D89"/&gt;
+    &lt;/linearGradient&gt;
+  &lt;/defs&gt;
+            </code></pre>
+          </div>
+        </section>
+
+        <section data-background-image="img/airnauts.png">
+          <div class="overlay-wrap">
+            <a href="http://airnauts.com/" class="small airnauts top-overlay">http://airnauts.com/</a>
+          </div>
+        </section>
+
+        <section>
+          <div class="shape-demo pattern-fill2">
+            <svg x="0px" y="0px" width="300px" height="486.24px"
+               viewBox="-99.979 -162.047 300 486.24" fill="url(#yestrek)" stroke="#fff">
+               <!-- magic! -->
+              <defs>
+                <pattern id="yestrek" patternUnits="userSpaceOnUse" width="336" height="189" x="-100" y="-20">
+                    <image xlink:href="img/yes.gif" x="0" y="0" width="336" height="189"/>
+                </pattern>
+              </defs>
+              <!-- /magic! -->
+              <path d="M53.531-149
+              C-49.869-1.886-87.109,139.671-92.709,305.44C-58.591,272.187,50.02,139.858,88.765,132.167
+              c25.854-5.135,48.595,26.062,102.307,128.312C178.008,116.698,118.265-54.826,53.531-149L53.531-149z"/>
+            </svg>
+          </div>
+          <div class="shape-info pattern-fill2">
+            <p>pattern fills with images!</p>
+            <pre><code>
+  &lt;defs&gt;
+    &lt;pattern id="yestrek"
+    patternUnits="userSpaceOnUse"
+    width="336" height="189" x="-100" y="-20"&gt;
+        &lt;image xlink:href="http://bren.zone/yes.gif"
+        x="0" y="0" width="336" height="189"/&gt;
+    &lt;/pattern&gt;
+  &lt;/defs&gt;
+            </code></pre>
+            <a class="ref" href="http://codepen.io/brenna/pen/JdCba">http://codepen.io/brenna/pen/JdCba</a>
+          </div>
+        </section>
+
+
+        <section data-background="img/svg-pattern-fill-img.png">
+          <div class="overlay-wrap">
+            <a class="small top-overlay" href="http://kerriscreation.com/en#portfolio">http://kerriscreation.com/en#portfolio</a>
+          </div>
+        </section>
+
+        <!-- ===============================================
+          ::animating SVG::
+        ================================================ -->
+
+        <section>
+          <h3>animating SVG</h3>
+        </section>
+
+        <section data-background-image="img/power-rangers.jpg">
+          <div class="overlay">
+            <p class="bottomless ">morphin' shapes</p>
+          </div>
+        </section>
+
+        <section>
+          <video src="img/svg-wiper.mov" data-autoplay loop width="1000" poster="img/svg-wiper.png"></video>
+          <p><a class="ref" href="http://airnauts.com/">http://airnauts.com/</a></p>
+          <aside class="notes">
+            <p>one really cool example of animating svg i found was on this airnauts site again, this angular shape sort of spirals around like a radar sweep</p>
+          </aside>
+        </section>
+
+        <section>
+          <video src="img/svg-wiper-devtools.mov" data-autoplay loop poster="img/svg-wiper-devtools.png" width="1200"></video>
+          <aside class="notes">
+            <p>if we take a look in the dev tools, you'll notice they're strategically manipulating a few points on the path</p>
+          </aside>
+        </section>
+
+        <section>
+          <div class="shape-demo smil-animation">
+            <svg viewbox="0 0 100 100" width="200" height="200" fill="#64C7CC">
+              <path>
+                <animate
+                  attributeName="d"
+                  dur="3"
+                  repeatCount="indefinite"
+                  keyTimes="0;0.3;0.5;0.8;1"
+                  values="
+                    M50,0 L100,0 L100,50 L100,100 L50,100, L0,100 L0,50 L0,0;
+                    M50,0 L100,0 L100,50 L100,100 L50,100, L0,100 L0,50 L0,0;
+                    M50,0 L75,25 L100,50 L75,75 L50,100, L25,75 L0,50 L25,25;
+                    M50,0 L75,25 L100,50 L75,75 L50,100, L25,75 L0,50 L25,25;
+                    M50,0 L100,0 L100,50 L100,100 L50,100, L0,100 L0,50 L0,0;"
+                />
+              </path>
+            </svg>
+          </div>
+          <div class="shape-info pattern-fill2">
+            <p>morph with SMIL <span class="tiny">(Synchronized Multimedia Integration Language)</span></p>
+            <pre><code>&lt;svg viewbox="0 0 100 100" width="200" height="200"&gt;
+  &lt;path&gt;
+    &lt;animate
+      attributeName="d"
+      dur="3"
+      repeatCount="indefinite"
+      keyTimes="0;0.3;0.5;0.8;1"
+      values=" M50,0 L100,0 L100,50 L100,100 L50,100, L0,100 L0,50 L0,0; M50,0 L100,0 L100,50 L100,100 L50,100, L0,100 L0,50 L0,0;
+        M50,0 L75,25 L100,50 L75,75 L50,100, L25,75 L0,50 L25,25; M50,0 L75,25 L100,50 L75,75 L50,100, L25,75 L0,50 L25,25; M50,0 L100,0 L100,50 L100,100 L50,100, L0,100 L0,50 L0,0;"
+    /&gt;
+  &lt;/path&gt;
+&lt;/svg&gt;
+            </code></pre>
+            <a href="http://jsfiddle.net/brenna/g1g03nvs/" class="ref">http://jsfiddle.net/brenna/g1g03nvs/</a>
+            <a class="ref" href="http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil">http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smila</a>&nbsp;&nbsp;
+          </div>
+        </section>
+
+        <section data-background="img/matrix.gif">
+        </section>
+
+        <section data-background-image="img/snap-svg.png" data-background-position="top">
+          <div class="overlay-wrap">
+            <a class="small top-overlay" href="http://snapsvg.io/">http://snapsvg.io</a>
+          </div>
+        </section>
+
+        <section>
+          <p>snap.svg morphin'</p>
+          <img src="img/morph-shapes.gif" alt="" width="1000">
+          <a href="http://tympanus.net/Tutorials/ShapeHoverEffectSVG/index3.html" class="ref">http://tympanus.net/Tutorials/ShapeHoverEffectSVG/index3.html</a>
+        </section>
+
+       <section>
+          <p class="bottomless ">animated line drawings</p>
+          <br>
+          <img class="naked" src="img/line-draw-animate.gif" alt="">
+       </section>
+
+
+        <section>
+          <!-- <video src="img/svg-path-animation.mov" data-autoplay loop>
+            <img src="img/svg-path-animation.png" alt="">
+          </video> -->
+          <p><code>stroke-dasharray</code><br>
+          <code>stroke-dashoffset</code></p>
+          <img src="img/svg-stroke-attributes.png" alt="" width="800"><br>
+          <a class="ref" href="http://jakearchibald.com/2013/animated-line-drawing-svg/">http://jakearchibald.com/2013/animated-line-drawing-svg/</a> <a class="ref" href="http://css-tricks.com/svg-line-animation-works/">http://css-tricks.com/svg-line-animation-works/</a>
+          <aside class="notes">
+            <p>there are some great tutorails that explain this all</p>
+          </aside>
+        </section>
+
+        <section>
+          <video src="img/svg-animated-path.mov" data-autoplay loop poster="img/svg-animated-path.png"></video><br>
+          <a href="http://letters-inc.jp" class="ref">letters-inc.jp</a>
+        </section>
+
+        <section data-background="img/lazy-line-painter.png" data-background-position="top">
+          <div class="overlay-wrap">
+            <a href="http://lazylinepainter.info/" class="top-overlay small">Lazy Line Painter plugin</a>
+          </div>
+          <aside class="notes">
+            <p>if the prospect of working that out seems a little daunting you can try this plugin</p>
+          </aside>
+        </section>
+
+
+        <!-- ===============================================
+          ::CANVAS::
+        ================================================ -->
+
+        <section data-background="#128B98">
+          <h2>HTML5 Canvas</h2>
+          <img class="naked" src="img/canvas-shape.svg" alt="">
+        </section>
+
+        <section>
+          <p>start with <code>&lt;canvas&gt;</code></p>
+          <canvas width="500" height="300" style="background:#fff"></canvas>
+          <pre class="inline"><code>
+  &lt;canvas width="500" height="300"&gt;&lt;/canvas&gt;
+          </code></pre>
+        </section>
+
+        <section data-background="img/bob-ross.jpg">
+          <div class="overlay">JavaScript</div>
+        </section>
+
+        <section>
+          <p>paint with JavaScript</p>
+          <canvas id="myCanvas" width="500" height="300" style="background:#fff;"></canvas>
+        <pre class="inline"><code>
+  var canvas = document.getElementById("myCanvas");
+  var ctx = canvas.getContext("2d");
+  ctx.fillRect(50, 25, 150, 100);
+  ctx.fillStyle = ('#64C7CC');
+        </code></pre>
+        </section>
+
+        <section>
+          <h3>canvas drawing methods</h3>
+          <br>
+          <div class="half">
+            <p>.beginPath()</p>
+            <p>.closePath()</p>
+            <p>.moveTo()</p>
+            <p>.lineTo()</p>
+          </div>
+          <div class="half">
+            <p>.arc()</p>
+            <p>.arcTo()</p>
+            <p>.quadraticCurveTo()</p>
+            <p>.bezierCurveTo()</p>
+          </div>
+
+        </section>
+
+        <section>
+          <div class="shape-demo">
+            <canvas id="pacman" width="200" height="200" style="background: white"></canvas>
+            <script>
+              var canvas = document.getElementById('pacman');
+              var ctx = canvas.getContext('2d');
+              ctx.fillStyle = '#64C7CC';
+              ctx.beginPath();
+              ctx.arc(100,100,75,Math.PI/7,-Math.PI/7,false);
+              ctx.lineTo(90,100);
+              ctx.fill();
+            </script>
+          </div>
+          <div class="shape-info">
+            <p>canvas drawing methods</p>
+            <pre><code>
+  var canvas = document.getElementById('canvas');
+  var ctx = canvas.getContext('2d');
+  ctx.fillStyle = '#64C7CC';
+  ctx.beginPath();
+  ctx.arc(100,100,75,Math.PI/7,-Math.PI/7,false);
+  ctx.lineTo(90,100);
+  ctx.fill('#64C7CC');
+            </code></pre>
+          </div>
+        </section>
+
+        <section data-background-image="img/bored-kanye.gif" data-background-position="bottom">
+        </section>
+
+        <section data-background="img/cuddles.jpg">
+          <div class="overlay">
+            <p class="bottomless">canvas + events</p>
+          </div>
+        </section>
+
+        <section>
+          <p>respond to user input (scroll)</p>
+          <img src="img/canvas-events.gif" alt="" width="800"><br>
+          <a class="ref" href="http://codepen.io/calvindavis/pen/IKDfr">http://codepen.io/calvindavis/pen/IKDfr</a>
+        </section>
+
+        <section>
+          <p>respond to user input (hover)</p>
+          <video src="img/canvas-hover.mov" data-autoplay loop width="1000" poster="img/canvas-hover.gif"></video><br>
+          <a class="ref" href="http://codepen.io/natewiley/pen/ypzmq/">http://codepen.io/natewiley/pen/ypzmq/</a>
+        </section>
+
+        <!-- ===============================================
+          ::CANVAS LIBRARIES::
+        ================================================ -->
+
+        <section data-background="img/buffy-library.png">
+          <div class="overlay">libraries</div>
+          <aside class="notes">
+            <p>so there are a TON of JS libraries that pertain to canvas but i'm just going to cover those that are most pertinent to geometric designs</p>
+          </aside>
+        </section>
+
+        <section>
+          <p>isometric shapes</p>
+          <div class="half close">
+            <img src="img/isomer.png" alt=""><br>
+            <a href="http://jdan.github.io/isomer/" class="small">Isomer</a>
+          </div>
+          <div class="half close">
+            <img src="img/sheetengine.png" alt=""><br>
+            <a href="https://sheetengine.codeplex.com/" class="small">sheetengine</a>
+          </div>
+        </section>
+
+        <section>
+          <p>Isomer cubes</p>
+          <img class="naked" src="img/isomer-cubes.png" width="200">
+          <pre class="js"><code>
+    var iso = new Isomer(document.getElementById("cubes"));
+    var blue = new Isomer.Color(100, 199, 204);
+
+    iso.add(Isomer.Shape.Prism(new Isomer.Point(0, 0, 0)), blue);
+    iso.add(Isomer.Shape.Prism(new Isomer.Point(1, 2, 0)), blue);
+    iso.add(Isomer.Shape.Prism(new Isomer.Point(1, 0, 1)), blue);
+          </code></pre>
+        </section>
+
+        <section>
+          <p>canvas + data</p>
+          <img src="img/d3.jpg" alt="" height="400"><br>
+          <a class="small" href="http://d3js.org/">D3.js</a>
+          <aside class="notes">
+            <p>canvas will dynamically update in response to data</p>
+            <p>note that d3 can also do svg which is pretty cool</p>
+          </aside>
+        </section>
+
+        <section>
+          <video src="img/d3-dataveyes.mov" data-autoplay loop height="600" poster="img/d3-dataveyes.png"></video><br>
+          <a href="http://dataveyes.com/#!/en" class="ref">dataveyes.com</a>
+          <aside class="notes">
+            <p>d3 example</p>
+          </aside>
+        </section>
+
+        <section>
+          <p>drawing &amp; animations</p>
+          <img src="img/createjs.jpg" alt="" height="400"><br>
+          <a href="http://www.createjs.com/#!/CreateJS" class="small">CreateJS</a>
+          <aside class="notes">
+            <p>suite of drawing library and a tweening libarary</p>
+            <p>will be familiar to flash devs</p>
+          </aside>
+        </section>
+
+<!--         <section data-background="img/canvas-layers.png">
+          <div class="overlay-wrap">
+            <a href="http://brightmedia.pl/?lang=en" class="small top-overlay">brightmedia.pl/</a>
+          </div>
+          <aside class="notes">
+            example using create.js
+          </aside>
+        </section> -->
+
+        <section>
+          <video src="img/brightmedia-parallax.mov" data-autoplay loop poster="img/canvas-layers.png" height="600"></video><br>
+          <a href="http://brightmedia.pl/?lang=en" class="ref">brightmedia.pl</a>
+        </section>
+        </section>
+
+        <section>
+          <p>layering canvases</p>
+          <img src="img/canvas-layer1.png" alt="" width="500">
+          <img src="img/canvas-layer2.png" alt="" width="500">
+          <img src="img/canvas-layer3.png" alt="" width="500">
+        </section>
+
+  <!--       <section>
+          <video src="img/createjs-personal-brand.mov" data-autoplay loop height="500"></video><br>
+          <a href="http://personalbrandinstitute.com/" class="ref">personalbrandinstitute.com/</a>
+        </section> -->
+
+        <section>
+          <p>vector drawing &amp; animations</p>
+          <div class="half close">
+            <img src="img/paperjs.jpg" alt=""><br>
+            <a class="small" href="http://paperjs.org/">Paper.js</a>
+          </div>
+          <div class="half close">
+            <img src="img/twojs.png" alt=""><br>
+            <a href="http://jonobr1.github.io/two.js/" class="small">two.js</a>
+          </div>
+          <aside class="notes">
+            <p>if you're familiar with vector based software like Illustrator, these libraries are a good choice</p>
+            <p>paper includes illustrator like features such as blend modes</p>
+            <p>two.js has an entire SVG interpreter that will allow you to author in SVG and place into a two.js scene</p>
+          </aside>
+        </section>
+
+        <section>
+          <img class="naked" src="img/paperjs-lightsource.gif"height="600"><br>
+          <a href="http://goodgameclub.com/" class="ref">Good Game Club</a>
+        </section>
+
+        <section>
+          <video src="img/paperjs-shapes.mov" data-autoplay loop poster="img/paperjs-shapes.gif" height="600"></video><br>
+          <a href="http://www.grifo.tv/" class="ref">grifo.tv</a>
+          <aside class="notes">
+            made with paper.js
+          </aside>
+        </section>
+
+        <section>
+          <video src="img/twojs-tether.mov" controls poster="img/twojs-tether.png" height="600"></video><br>
+          <a href="http://tether.plaid.co.uk/" class="ref">tether.plaid.co.uk</a>
+          <aside class="notes">
+            made with two.js
+          </aside>
+        </section>
+
+        <section>
+          <h3><a href="http://www.patatap.com/">patatap.com</a></h3>
+        </section>
+
+ <!--        <section>
+          <video src="img/twojs-tether.mov" controls poster="img/twojs-tether.png" height="600"></video><br>
+          <a href="http://www.grifo.tv/" class="ref">grifo.tv</a>
+        </section> -->
+
+        <section>
+          <div class="triangle-box-done" style="margin: 0 auto"></div>
+          <aside class="notes">
+            <p>we started with this teeny little triangle and look how far we've come in only six years. I can't wait to see what happens next.</p>
+          </aside>
+        </section>
+
+        <section data-background="img/bg-diag.png">
+          <h1 class="main">Thanks!</h1>
+          <a href="http://twitter.com" class="coverpage">@brnnbrn</a>
+        </section>
+			</div> <!-- /.slides -->
 
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
-
-		<script>
-
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
-
-				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
-
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-
-		</script>
+		<script src="js/slides.js"></script>
 
 	</body>
 </html>
